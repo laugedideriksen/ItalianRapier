@@ -1,4 +1,4 @@
-%!TeX program = xelatex
+% !TEX program = xelatex
 \documentclass[article, 12pt, a4paper]{memoir}
 
 \usepackage[UKenglish]{babel}
@@ -6,10 +6,14 @@
 \babelprovide[hyphenrules=UKenglish]{UKenglish}
 \hyphenation{} % Specify hyphenation. Words are divided by spaces.
 
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{hyperref}
 
 \usepackage[margin=1in]{geometry}
 
-\usepackage[authordate, backend=biber, doi=onlynd]{biblatex-chicago}
+\usepackage[authordate, backend=biber]{biblatex-chicago}
+%\usepackage[backend=biber, style=chicago-authordate]{biblatex}
 \addbibresource{$HOME/Documents/ConfigAndTemplates/LaTex/zotero-library.bib}
 \SetCiteCommand{\autocite}
 
@@ -68,7 +72,7 @@
 % WRITE BELOW
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\noindent This document is an attempt at a curriculum covering the basic use of the empty hand\footnote{Througout this document, I use the term `empty hand', rather than `off hand' or similar. I do so to emphasise it as an essential component of fencing with the rapier `alone', instead of being an unfortunate byproduct of human physiology.} in Italian rapier fencing.
+\noindent This document is an attempt at a curriculum covering the basic use of the empty hand\footnote{Througout this document, I use the term `empty hand', instead of `off hand' or similar. I do so to emphasise it as an essential component of fencing with the rapier `alone', rather than an unfortunate byproduct of human physiology.} in Italian rapier fencing.
 There are three sections: principles, knife work, and rapier work.
 The first section sets out the principles which the remainder of the document attempts to put into practice.
 If I have done my work well, the answer to every `why' question about anything in this document should boil down to the principles laid out in this first section.
@@ -78,7 +82,8 @@ The third section contains drills and free play exercises focused on using the e
 It also contains a collection of plays from various primary sources that use the empty hand.
 
 \section*{How To Use this Document}
-Each section of this document builds on the previous: the principlis laid out in section one lays the foundation for the mechanics and movements in section two on knife work.
+Each section of this document builds on the previous: the principles laid out in section one lay the foundation for the mechanics and movements in section two on knife work.
+The second section contains drills and exercises to familiarise the student with using the empty hand.
 Once those mechanics have become familiar, the third section combines them with the blade- and footwork of Italian rapier fencing.
 Finally, the plays at the end of the third section integrate the empty hand as part of longer sequences.
 Each drill is focused on a single technique and several drills can be combined to form decision drills.
@@ -99,7 +104,7 @@ In those cases, trying to force an exercise or a technique to work is a waste of
 Broadly speaking, there are four ways to use the empty hand in Italian rapier fencing: parrying, taking over, trapping, and displacing.\footnote{Fencing terminology is infamously inconsistent and this topic is no exception. These are the terms I have settled on.}
 In an empty-hand parry, the opponent's weapon is deflected first, and usually only, with the empty hand.
 This is often combined with a simultaneous (\emph{stesso tempo}) attack with the rapier.
-Empty-hand parries will not work against cuts.\footnote{Well, they will, but only under specific circumstances.}
+Empty-hand parries will not work against cuts.\footnote{Well, they will, but it can be a bit sketchy. See e.g. Di Grassi's \citetitle{digrasssiHisTrueArte2000}.}
 When the opponent's blade is parried or displaced with the rapier, the empty hand can take over controlling their weapon, freeing up the rapier for offensive use.
 Trapping is any form of taking control over the opponent's weapon.
 This ranges from the complex traps and disarms found in some Spanish sources to simply grabbing any part of the opponent's weapon within reach.\footnote{Oppinions differ on whether it is possible to hold on to a sharpened rapier or not; to my knowledge, it has been some time since anyone tried it out.}
@@ -121,18 +126,29 @@ It seems to me that there are three fundamental principles for successfully inte
 These three principles are in addition to the general principles of fencing in general and rapier fencing in particular.
 
 From (1.) it follows that the empty hand is most easily used on the inside.
-Any thrusting attack to the head and torso can be deflected with the same movement of the empty hand: a semicircle from just above the head to somewhere outside the left hip.
-Doing this motion from the top down rather than the bottom up means that gravity works with you and against your opponent.
+On the inside, any thrusting attack to the head and torso can be deflected with the same movement of the empty hand: a semicircle from just above the head to somewhere outside the left hip.
 Using this motion also means that the movement is always the same, as opposed to holding the empty hand in the middle and moving it up or down depending on the opponent's target.
-This semicircle can be used to parry and displace, and to take over when the opponent's blade is on the inside.
+Doing this motion from the top down rather than the bottom up means that gravity works with you and against your opponent.
+Depending on context, it can be useful to `tilt' this imaginary semicircle towards the opponent, by moving the end point forward and upward.
+In this way, the parrying movement can also be used to displace and to take over when the opponent's blade is on the inside.
 
 From this in combination with (2.), it follows that, in the guard, the empty hand should be held somewhere around head-height and close to the face.
 Assuming a \emph{capoferrian} guard, the body must be angled so that the empty hand can protect both face and torso without having to turn the torso first.
 Exactly what this looks like will vary from fencer to fencer.
+
+Parrying, displacing, and taking over on the outside come with some downsides, but should nonetheless be part of one's repertoire.
+The most obvious downside is that they require crossing the arms, thus necessarily limiting the weapon arm's movement upward or downward.
+Another downside is that they require more precision.
+Using the sweeping motion described above, actions on the inside have a wide margin---a parry will work whether one catches the opponent's blade with the hand, wrist, or forearm.
+Such a motion is not practical on the outside, instead actions on the outside tend to be horizontal.
+At the same time, most rapier schools use a guard where the outside is `closed'.
+Attacks on the outside therefore tend to follow from invitations, \textsc{battuti} or feints.
+By drilling responses to these that make use of the empty hand, one can alleviate some of those downsides.
+
 \bigbreak
 So much for platonic fencing.
-These are principles, not commandments and there are certainly situations that call for something else.\footnote{Such as your opponent's avoiding your empty-hand parry by lifting their tip over your hand, as is suggested in \emph{Den Ridderlige og Adelige Fecht-konstis} (\citeyear{a.RidderligeOcAdelige1646}). Any empty-hand action immediately following that will likely start from below, as that is where the hand is.}
-Nonetheless, as this document is concerned with the basics, they should work nine times out of ten.
+These are principles, not commandments and they will not apply to every situation.\footnote{Such as your opponent's avoiding your empty-hand parry by lifting their tip over your hand, as is suggested in \emph{Den Ridderlige og Adelige Fecht-konstis} (\citeyear{a.RidderligeOcAdelige1646}). Any empty-hand action immediately following that will likely start from below, as that is where the hand is.}
+Nonetheless, this document is concerned with the basics, and for that these principles will apply nine times out of ten.
 
 \chapter{Knife Work}
 As I wrote in the introduction, this section does not describe a system of knife fighting.
@@ -143,7 +159,8 @@ This makes the discrepancy between the hands is smaller.
 The lighter weight also allows more repetitions of new movements before fatigue becomes an issue.
 The most important distinction between knife work and rapier fencing, however, is that knife fighting is not fencing---there is no fancy footwork, no seventeenth-century flair.
 
-As for which kind of knives to use for these drills, different implements afford different ways of training, and I the people in my class work with all of them---plastic bowies, LARP daggers, aluminium trainers, rolled-up newspapers, etc.
+Not all knives are created equal and the same goes for training knives, but each different implement affords different ways of training.
+I make the people in my class work with all of them---plastic bowies, LARP daggers, aluminium trainers, rolled-up newspapers, etc.
 A trainer I find especially useful for higher-intensity work is a {\char`\~16cm} roll of yoga mat, two-thirds of which is wrapped in gaffer's tape to form a handle.\footnote{I have taken this idea from Scott Babb's knife fighting system, \emph{Libre}.}
 It is cheap, stiff enough to be usable, yet soft enough that neither student nor teacher need to worry about anyone getting hurt.
 
@@ -154,7 +171,7 @@ In terms of footwork, think boxing or Philippino triangle footwork, not fencing.
 And whatever you do, do not lunge!
 
 \section{Drills}
-\subsubsection*{Due Tempi}
+\subsubsection*{Dui Tempi}
 \begin{enumerate}
     \item Implement: larger blade, e.g. bowie held point up.
 
@@ -227,20 +244,24 @@ And whatever you do, do not lunge!
     \item Both can use the empty hand, but one is against the wall.
     \item Fight as usual, but in a confined space.
     \item Limited targeting: the only valid targets are e.g. the back, the face, or the trunk.
+    \item Multiple hits: Do not reset after each hit, but continue until someone has been hit multiple times.
+    \item As above, but pursue a situation where the opponent is unable to counter, even if given tempo to do so.
 \end{enumerate}
 
 
 \chapter{Rapier Work}
 %TODO: Add description
+Before attempting any of the drills below, spend some time integrating the lessons learned from the knife work into your rapier basics---especially stance and footwork.
+Look for the feeling of symmetry between weapon hand and empty hand that has hopefully developed with the knife.
+
 The following drills differ in some ways from the plays traditionally found in rapier treatises.
 They are short.
-Most drills have no more than three steps.
+Few have more than three steps.
 This is to keep the focus on the technique of movement being drilled.
 I have also tried to emphasise offensive actions, as the treatises tend to emphasise defensive ones.
-When working through these, try to find the feeling of symmetry between weapon- and empty hand from the knife drills with the rapier
 
 \section{Drills}
-\subsubsection*{Due Tempi}
+\subsubsection*{Dui Tempi}
 \begin{enumerate}
     \item A attacks with a diagonal cut to the head (number `1' or `2').
         
@@ -251,14 +272,20 @@ When working through these, try to find the feeling of symmetry between weapon- 
     \item As above, but A attacks with an inside thrust to the abdomen, and B parries in hanging \textsc{prima} or low \textsc{quarta}.
     \item A attacks with a thrust to the abdomen in \textsc{terza} or \textsc{secunda}.
 
-        B parries with a hanging secunda to their outside, steps forward with a passata/profilwechsel, grips the hilt or base of A's blade, and simultaneously pulls with their empty hand while thrusting with the rapier under A's blade.
+        B parries with a hanging \textsc{secunda} to their outside, steps forward with a \textsc{passata}/Profilwechsel, grips the hilt or base of A's blade, and simultaneously pulls with their empty hand while thrusting with the rapier under A's blade.
         Ideally, A's blade should be trapped between B's empty hand and their quillons.
 
-        \textbf{Note}: depending on the length of the rapier, it may be necessary to keep it relatively far back while doing the passata.
+        \textbf{Note}: depending on the length of the rapier, it may be necessary to keep the weapon hand relatively far back during the \textsc{passata}.
 
-        \textbf{Variation}: instead of thrusting with the point, B can keep their rapier point-down and hit A in the face with the hilt.
-        This is particularly effective if their rapier has straight quillons.
-    \item As above, but instead of levering A's blade between empty hand and own quillons, B frees their blade and thrust A from above.
+        \textbf{Variation 1}: instead of thrusting with the point, B can keep their rapier point-down and hit A in the face with the hilt.
+        This is particularly nasty if the rapier has straight quillons.
+    \item As above, but instead of levering A's blade between empty hand and own quillons, B frees their blade, lifts their arm behind them, and thrust A from above.
+    \item As above, but instead of gripping A's blade, B pushes the elbow of A's weapon arm.\footnote{Cf. the Fiore de'i Liberi adaptation below.} This is especially effective if the rapier parry has the force  of a \textsc{battuta}.
+    \item A attacks on the inside with a diagonal cut to the head or shoulder.
+
+        B parries with a hanging parry (\textsc{octav}), steps forward with the back leg and grips A's forearm with their empty hand. Riposte at will.
+
+    \item Same as above, but A attacks on the outside and B parries accordingly (\textsc{septim}).
 \end{enumerate}
 
 \subsubsection*{Stesso Tempo}
@@ -289,12 +316,47 @@ When working through these, try to find the feeling of symmetry between weapon- 
     \item As above, but B is up against a wall.
     \item As above, but it is A against the wall.
     \item Both fencers can use their empty hand, but one has their back against the wall.
+    \item Multiple hits: Do not reset after each hit, but continue for until someone has been hit multiple times.
+    \item As above, but pursue a situation where the opponent is unable to counter, even if given tempo to do so.
 \end{enumerate}
 
 \section{Primary Source Plays}
-\subsubsection*{Capo Ferro p.48}
+The following plays have been taken from a variety of rapier treatises.
+Where the author gives several responses to an action, only those using the empty hand have been included.
+For the sake of brevity, I have rewritten them in a more schematic form, but I highly recommend consulting the original sources, or translations thereof.
 
+\citeauthor{wilsonRidolfoCapoFerro2025} plays are based on Wilson and Swanger's translation.
+Plays from \citeauthor{fabrisSalvatorFabrisWiktenauer}' treatise are based on Michael Chidester's transcription of A. F. Johnson's translation.
+Both are available on \href{https://wiktenauer.com}{Wiktenauer}.
+Plays from \emph{Den Ridderlige oc Adelige Fechtkonstis grundelige oc Methodiske Beskriffuelse} are based on my own translation.
 
+\subsubsection*{Capo Ferro No. 20}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{./Capo_Ferro_20.png}
+    \end{center}
+    \caption{\protect\url{https://wiktenauer.com/wiki/File:Capo_Ferro_20.png}}
+\end{figure}
+
+C \textsc{stringere} D on the outside.
+
+D disengages, seeking to strike C with a \textsc{stoccata}.
+
+\textbf{Option 1}: C parries in \textsc{quarta} with a beat of the front foot.\footnote{I take this to mean an \emph{appell}, but also a transfer of weight to the front foot.}
+C then strikes D's face in \textsc{seconda} with a \textsc{passata}, while gripping D's wrist with the empty hand from above.
+
+\textbf{Option 2}: C parries in \textsc{quarta} while closing with the back foot.
+C then strikes D's face in \textsc{seconda} with a lunge, while gripping D's wrist with the empty hand from above.
+
+\subsubsection*{Fiore de’i Liberi}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{./MS_Latin_11269_12r-d.png}
+    \end{center}
+    \caption{\protect\url{https://wiktenauer.com/wiki/File:MS_Latin_11269_12r-d.png}}
+\end{figure}
 
 %BIBLIOGRAPHY
     \SingleSpacing
@@ -302,5 +364,19 @@ When working through these, try to find the feeling of symmetry between weapon- 
         \setlength\bibitemsep{0.5\itemsep}
         \printbibliography
 
+\appendix
+\renewcommand\thechapter{Appendix \Alph{chapter}:}
+\OnehalfSpacing
+\chapter{Lesson Plan Summer 2026}
+
+\section*{Class 1: Taking Over}
+
+\section*{Class 2: Displacing}
+
+\section*{Class 3: Parrying}
+
+\section*{Class 4: Review and a Few Dirty Tricks}
+
+\section*{Class 5: Primary Source Plays}
 \endgroup
 \end{document}
