@@ -3,18 +3,21 @@
 
 \usepackage[UKenglish]{babel}
 \usepackage{csquotes, ellipse, longtable}
+
 \babelprovide[hyphenrules=UKenglish]{UKenglish}
 \hyphenation{} % Specify hyphenation. Words are divided by spaces.
 
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{hyperref}
+\usepackage{url}
 \hypersetup{
+    breaklinks=true,
     colorlinks=true,
     linkcolor=blue,
     urlcolor=blue,
     citecolor=black
-    }
+}
 
 \usepackage[margin=1in]{geometry}
 
@@ -37,10 +40,9 @@
 \renewcommand*\thesubsection{\arabic{chapter}.\arabic{section}.\arabic{subsection}\hspace{-8pt}}
 \setsecheadstyle{\normalfont\large}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{\Huge Empty Hand Basics (v0.1.0)} % Specify title. If using \thetitle, etc. specify fontsize, e.g. \huge
+\title{\Huge Empty Hand Basics (v0.2.0)} % Specify title. If using \thetitle, etc. specify fontsize, e.g. \huge
 % \thanks{}
 \author{\Large Lauge Dideriksen, \today} % As with title, although \Large seems to work well.
 \date{}
@@ -58,13 +60,13 @@
 %\postauthor{\par\end{flushright}\vspace{-50pt}}
 %\maketitle
 %\noindent\parbox[t][][t]{\linewidth}{%
-	%\parbox[t][][t]{.6\linewidth}{\thetitle}
-	%\hfill%
-	%\parbox[t][][t]{.4\linewidth}{\raggedleft\theauthor}
+%\parbox[t][][t]{.6\linewidth}{\thetitle}
+%\hfill%
+%\parbox[t][][t]{.4\linewidth}{\raggedleft\theauthor}
 %}
 
 % TITLE VERSION 2
-{\raggedright\thetitle}\medbreak	
+{\raggedright\thetitle}\medbreak
 {\raggedright\theauthor}\bigbreak
 
 % TITLE VERSION 3
@@ -72,7 +74,6 @@
 
 \captionnamefont{\footnotesize}\captiontitlefont{\footnotesize}
 \begingroup\let\clearpage\relax\raggedbottom
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % WRITE BELOW
@@ -104,7 +105,7 @@ Even so, I would advice against introducing the primary source plays before the 
 As always, drills and excercises need to be adapted when fencing (against) an opponent who wields their weapon in a different hand than you do.
 For some drills in this document, it should suffice to switch the side of attack (inside/outside), for others, I have made a note suggesting a modified version.
 Even so, there might be exercises that are simply not appropriate when fencing `leftie' against `rightie'.
-In those cases, trying to force a technique to work is a waste of time, and the better solution is for the fencer on the `receiving end' to fence with their other hand.
+In those cases, trying to force a technique to work is a waste of time, and the better solution is for the fencer on the receiving end to fence with their `other strong hand'.
 
 \section*{Terminology}
 Broadly speaking, there are four ways to use the empty hand in Italian rapier fencing: parrying, taking over, trapping, and displacing.\footnote{Fencing terminology is infamously inconsistent and this topic is no exception. These are the terms I have settled on.}
@@ -167,7 +168,7 @@ The most important distinction between knife training and rapier fencing, howeve
 
 Although not all knives are created equal and the same goes for training knives, each different implement affords different ways of training.
 I make the people in my class work with all of them---plastic bowies, LARP daggers, aluminium trainers, rolled-up newspapers, etc.
-A trainer I find especially useful for higher-intensity work is a {\char`\~16cm} roll of yoga mat, two-thirds of which is wrapped in gaffer's tape to form a handle.\footnote{I have taken this idea from Scott Babb's knife fighting system, \emph{Libre}.}
+A trainer I find especially useful for higher-intensity work is a {\char`\~16cm} roll of yoga mat, wrapped in gaffer's tape so that only 1--2cm are exposed at one end.\footnote{I have taken this idea from Scott Babb's knife fighting system, \emph{Libre}.}
 It is cheap, stiff enough to be usable, yet soft enough that neither student nor teacher need to worry about anyone getting hurt.
 
 As for posture, grip, and footwork: keep it simple.
@@ -182,9 +183,9 @@ And whatever you do, do not lunge!
     \item Implement: larger blade, e.g. bowie held point up.
 
         A attacks with a diagonal cut to the head (number `1' or `2').
-        
+
         B blocks with a cut to the forearm, takes over the parry with the empty hand, and strikes A with a cut or a thrust.
-        
+
         \textbf{Note}: experiment with different placements of the empty hand in relation to the blade.
     \item As above, but A attacks with a thrust to the face or chest.
     \item Implement: smaller blade, preferably held point down.
@@ -217,6 +218,16 @@ And whatever you do, do not lunge!
 
         \textbf{Note}: This drill is not suitable leftie against rightie.
 
+    \item Implement: small or large blade, point up or point down, especially useful with a bowie.
+
+        A attacks with a forehand to B's face/neck.
+
+        B blocks with their weapon hand (or a stop-cut to the arm with a bowie).
+
+        A clears B's block to the outside with their empty hand before it connects.
+
+        \textbf{Note:} This clearing works best from below.
+
 \end{enumerate}
 
 \subsubsection*{Stesso Tempo}
@@ -243,9 +254,15 @@ And whatever you do, do not lunge!
 
 \subsubsection*{Free Play}
 %TODO: Add general description. Include notes on distance, speed, pressure, etc.
+Free play exercises fall somewhere between sparring and drilling.
+On one hand, they are meant to stress test techniques and concepts that have been drilled.
+On the other, they are an opportunity to experiment with ways of getting to those techniques.
+To that end, the intensity of the exercise should be adjusted to match the goal---less for experimentation, more for stress testing.
+In any case, the focus should remain on using both hands together, not on winning.
+
 \begin{enumerate}
     \item A fights as usual, but B cannot use their empty hand.
-    \item As above, but B is up against a wall.
+    \item As above, but B is up against a wall.\footnote{The focus here should be on using weapon and empty hand in concert to safely close the distance. To that end, use control, not speed and explosiveness.}
     \item As above, but it is A against the wall.
     \item Both can use the empty hand, but one is against the wall.
     \item Fight as usual, but in a confined space.
@@ -253,7 +270,6 @@ And whatever you do, do not lunge!
     \item Multiple hits: Do not reset after each hit, but continue until someone has been hit multiple times.
     \item As above, but pursue a situation where the opponent is unable to counter, even if given tempo to do so.
 \end{enumerate}
-
 
 \chapter{Rapier Work}
 %TODO: Add description
@@ -267,14 +283,13 @@ This is to keep the focus on the technique of movement being drilled.
 I have also tried to emphasise offensive actions, as the treatises tend to emphasise defensive ones.
 Much like primary source plays, however, not every drill is likely to work in sparring, and not every drill will work for every fencer.
 
-
 \section{Drills}
 \subsubsection*{Dui Tempi}
 \begin{enumerate}
-    \item A attacks with a diagonal cut to the head (number `1' or `2').
-        
-        B parries in \textsc{quarta} or \textsc{secunda}, depending on the attack, takes over the parry with the empty hand, and strikes A with a cut or a thrust.
-        
+    \item A attacks with a diagonal cut to the head or neck (number `1' or `2').
+
+        B parries in \textsc{quarta}\footnote{Following the convention of \autocite{a.RidderligeOcAdelige1646}, parries are denoted by the orientation of the blade. Thus, a parry in \textsc{secunda} is what later systems call a \textsc{terz}-parry.} or \textsc{secunda}, depending on the attack, takes over the parry with the empty hand, and strikes A with a cut or a thrust.
+
         \textbf{Note}: experiment with different placements of the empty hand in relation to the blade.
     \item As above, but A attacks with a thrust to the face or chest.
     \item As above, but A attacks with an inside thrust to the abdomen, and B parries in hanging \textsc{prima} or low \textsc{quarta}.
@@ -288,7 +303,7 @@ Much like primary source plays, however, not every drill is likely to work in sp
         \textbf{Variation 1}: instead of thrusting with the point, B can keep their rapier point-down and hit A in the face with the hilt.
         This is particularly nasty if the rapier has straight quillons.
     \item As above, but instead of levering A's blade between empty hand and own quillons, B frees their blade, lifts their arm behind them, and thrust A from above.
-    \item As above, but instead of gripping A's blade, B pushes the elbow of A's weapon arm.\footnote{Cf. the Fiore de'i Liberi adaptation below.} This is especially effective if the rapier parry has the force  of a \textsc{battuta}.
+    \item As above, but instead of gripping A's blade, B pushes the elbow of A's weapon arm.\footnote{Cf. the \citetitle{FioreLiberiSword} adaptation below.} This is especially effective if the rapier parry has the force  of a \textsc{battuta}.
     \item A attacks on the inside with a diagonal cut to the head or shoulder.
 
         B parries with a hanging parry (\textsc{octav}), steps forward with the back leg and grips A's forearm with their empty hand. Riposte at will.
@@ -314,13 +329,17 @@ Much like primary source plays, however, not every drill is likely to work in sp
         Making the final thrust in \textsc{quarta} will provide A with more protection, while thrusting in \textsc{secunda} will leave slightly more space for the empty hand to work.
 
     \item As above, but B thrusts in opposition directly following their disengage.
-        
+
         As A parries and thrusts, they can either stand their ground or step to their inside with a traverso.\footnote{Yes, this is towards, not away from, the incoming attack. The idea is to further displace the opponents blade, while keeping it under control.}
+
+    \item A thrusts at B.
+
+        B simultaneously parries and counters with a thrust.
 \end{enumerate}
 
 \subsubsection*{Free Play}
 \begin{enumerate}
-    \item A fence as usual, but B cannot use their empty hand.
+    \item A fences as usual, but B cannot use their empty hand.
     \item As above, but B is up against a wall.
     \item As above, but it is A against the wall.
     \item Both fencers can use their empty hand, but one has their back against the wall.
@@ -334,10 +353,8 @@ Where the author gives several responses to an action, only those using the empt
 For the sake of brevity, I have rewritten them in a more schematic form, but I highly recommend consulting the original sources, or translations thereof.
 
 \citeauthor{wilsonRidolfoCapoFerro2025} plays are based on Wilson and Swanger's translation.
-Plays from \citeauthor{fabrisSalvatorFabrisWiktenauer}' treatise are based on Michael Chidester's transcription of A. F. Johnson's translation.
-The \citetitle{FioreLiberiSword} play is based on translations by Michael Chidester and Colin Hatcher
-All are available on \href{https://wiktenauer.com}{Wiktenauer}.
-Plays from \emph{Den Ridderlige oc Adelige Fechtkonstis grundelige oc Methodiske Beskriffuelse} are based on my own translation.
+The \citetitle{FioreLiberiSword} play is based on translations by Michael Chidester and Colin Hatcher.
+Both are available on \href{https://wiktenauer.com}{Wiktenauer}.
 
 \subsubsection*{Capo Ferro No. 20}
 
@@ -360,15 +377,15 @@ C then strikes D's face in \textsc{seconda} with a lunge, while gripping D's wri
 
 \subsubsection*{Fiore de'i Liberi}
 
-\emph{Fiore de'i Liberi} is a treatise from before rapiers were a thing and, as such, the fencing it describes differs somewhat in style from Italian rapier treatises.
+\citetitle{FioreLiberiSword} is a treatise from before rapiers were a thing and, as such, the fencing it describes differs somewhat in style from Italian rapier treatises.
 This technique still works, however, especially for more athletic fencers.
 I have included it here as an example of a more forceful use of the empty hand.
 
 \begin{figure}[H]
     \begin{center}
-        \includegraphics[width=0.95\textwidth]{./MS_Latin_11269_12r-d.png}
+        \includegraphics[width=0.95\textwidth]{./Pisani-Dossi_MS_14a-d.png}
     \end{center}
-    \caption{\protect\url{https://wiktenauer.com/wiki/File:MS_Latin_11269_12r-d.png}}
+    \caption{\protect\url{https://wiktenauer.com/images/7/7f/Pisani-Dossi_MS_14a-d.png}}
 \end{figure}
 
 A attacks B on the inside with a thrust in \textsc{prima} or \textsc{secunda}.
@@ -379,42 +396,70 @@ As B parries, A steps forward with a \textsc{passata} and shoves B's elbow acros
 
 B then `wrap[s his] sword around [A's] neck from behind, and [A] will have no defense to this.'
 
-\textbf{Note 1}: Several notes on this.
-A's initial thrust can either be direct or somewhat diagonal, thus forcing B to parry further out than otherwise.
+\textbf{Note 1}: A's initial thrust can either be direct or somewhat diagonal, thus forcing B to parry further out than otherwise.
+This can be combined with different angles in the \textsc{passata}, to the point where it almost becomes a \textsc{traverso}.
 
-\textbf{Note 2}: I am aware of two illustrated versions of \emph{Fiore de'i Liberi}.
+\textbf{Note 2}: I am aware of two illustrated versions of \citetitle{FioreLiberiSword}.
 In one, A is depicted with the right foot in front, in the other with the left foot in front.
 Especially with long rapiers, I have found that a \textsc{passata} works better than a lunge.
 
 %BIBLIOGRAPHY
-    \SingleSpacing
-        \AtNextBibliography{\footnotesize}
-        \setlength\bibitemsep{0.5\itemsep}
-        \printbibliography
+\SingleSpacing
+\AtNextBibliography{\footnotesize}
+\setlength\bibitemsep{0.5\itemsep}
+\printbibliography
 
-\appendix
-\renewcommand\thechapter{Appendix \Alph{chapter}:}
-\OnehalfSpacing
-\chapter{Lesson Plan Summer 2026}
-
-\section*{Class 1: Taking Over}
-
-\textbf{Knife drills}: 1, 2. Different empty-hand positions separately.
-
-\noindent\textbf{Knife freeplay}: 1, 7. Hunt for take-overs.
-
-\noindent\textbf{Rapier basics}: Guard, posture, etc.
-
-\noindent\textbf{Rapier drills}: 1, 2, 3
-
-\noindent\textbf{Rapier freeplay}: 1
-
-\section*{Class 2: Displacing}
-
-\section*{Class 3: Parrying}
-
-\section*{Class 4: Review and a Few Dirty Tricks}
-
-\section*{Class 5: Primary Source Plays}
+%\pagebreak
+%\appendix
+%\renewcommand\thechapter{Appendix \Alph{chapter}:}
+%\OnehalfSpacing
+%\chapter{Lesson Plan Summer 2026}
+%
+%\section*{Class 1: Taking Over}
+%
+%\textbf{Knife drills}: 1, 3.
+%
+%\noindent\textbf{Knife freeplay}: 1, 2, 6.
+%
+%\noindent\textbf{Rapier basics}: Guard, posture, etc.
+%
+%\noindent\textbf{Rapier drills}: 1, 2, 3, 4
+%
+%\noindent\textbf{Rapier freeplay}: -
+%
+%\section*{Class 2: Displacing}
+%
+%\textbf{Knife drills}: 3, 4, 5.
+%
+%\noindent\textbf{Knife freeplay}: 1, 2, 6.
+%
+%\noindent\textbf{Rapier basics}: Guard, posture, etc.
+%
+%\noindent\textbf{Rapier drills}: stesso tempo 1, 2. Potentially repeat last week's drills.
+%
+%\noindent\textbf{Rapier freeplay}: 2.
+%
+%\section*{Class 3: Parrying}
+%
+%\textbf{Knife drills}: stesso tempo 1, 2, 3
+%
+%\noindent\textbf{Knife freeplay}: 1, 2, 3, 6 (with masks!)
+%
+%\noindent\textbf{Rapier drills}: stesso tempo 3, 4
+%
+%\noindent\textbf{Rapier freeplay}: 1, 2, 3
+%
+%\section*{Class 4: Review}
+%
+%\textbf{Knife drills}: repeat the different responses to attacks. Repeat clearing movements.
+%
+%\noindent\textbf{Knife freeplay}: 1, 2, 3
+%
+%\noindent\textbf{Rapier drills}: Repeat drills from the previous three classes.
+%
+%\noindent\textbf{Rapier Plays}: Modified version of the \emph{Fiore} play above: A thrusts to body on the inside; B parries in second, steps in and finishes as in the original.
+%
+%\noindent\textbf{Rapier freeplay}: 1, 2, 3, 4
+%
 \endgroup
 \end{document}
