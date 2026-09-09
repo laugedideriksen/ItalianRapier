@@ -305,25 +305,37 @@ This can be combined with different angles in the #smallcaps[passata], to the po
 In one, A is depicted with the right foot in front, in the other with the left foot in front.
 Especially with long rapiers, I have found that a #smallcaps[passata] works better than a lunge.
 
-==== Saviolo Second Ward
+==== Saviolo's Second Ward
+
+This sequence from Saviolo's _His Practice_ (#cite(<Saviolo_1595>, form: "year")) makes for an excellent drill, with two caveats.
+First, the sequence relies on Saviolo's somewhat idiosyncratic footwork.
+Second, it starts from his 'second ward' which he describes as follows, somewhat contrary to the accompanying illustration (@saviolo):
+
+#set quote(block: true)
+#quote(attribution: [#cite(
+  <Saviolo_1595>,
+  supplement: "17",
+  form: "prose",
+)])[[The scholler must] place his right legge formoste, a little bending the knee, so that the heele of his right foote stand just against the midst of his left foote, holding his swoord hand close on the outside of his right knee, with his swoorde helde in shorte, least his adversarye should gaine the same, ever keeping the poynte directlye on the face or bellye of his enemye]
+
 
 #figure(
   image("Saviolo_2.jpg", width: 95%),
   caption: link(
     "https://wiktenauer.com/images/archive/3/3b/20130915232754%21Saviolo_2.jpg",
   ),
-)
+)<saviolo>
 
-M stoccata with a small step right around the circle.
+M #smallcaps[stoccata] with a small step right around the circle.
 
-S stoccata and empty-hand parry with a step right around the circle in counter-time.
+S #smallcaps[stoccata] and empty-hand parry with a step right around the circle in counter-time.
 
-M right foot counter-time, imbroccata to S's face and empty-hand parry with a left-foot step toward S's left hand.
+M right foot counter-time, #smallcaps[imbroccata] to S's face and empty-hand parry with a left-foot step toward S's left hand.
 
-S Empty-hand parry ('beating the thrust ... outward toward the left side') with step right around the circle in counter-time, then imbroccata to M's face.
+S empty-hand parry ('beating the thrust ... outward toward the left side') with step right around the circle in counter-time, then #smallcaps[imbroccata] to M's face.
 
-M Empty-hand parry while stepping his right foot towards S's left hand in counter-time and then stoccata to S's belly.
+M empty-hand parry while stepping his right foot towards S's left hand in counter-time and then #smallcaps[stoccata] to S's belly.
 
-S Empty-hand parry downward while stepping right foot towards M's left hand in counter-time and then stoccata to M's belly
+S empty-hand parry downward while stepping right foot towards M's left hand in counter-time and then #smallcaps[stoccata] to M's belly
 
-M Empty-hand parry to their right side (!), stepping diagonally backwards with their right foot in counter-time and stoccata to S's head.
+M empty-hand parry to their right side, stepping diagonally backwards with their right foot in counter-time and #smallcaps[stoccata] to S's head.
