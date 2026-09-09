@@ -32,12 +32,14 @@
 // ============================================================
 
 #import "empty-hand-basics/empty-hand-basics.typ": empty-hand-basics
+#import "addressing-weaknesses/addressing-weaknesses.typ": addressing-weaknesses
 // #import "next-block/next-block.typ": next-block
 
 #import "@preview/in-dexter:0.7.2": *
 
 #let blocks = (
   empty-hand-basics,
+  addressing-weaknesses,
   // next-block,
 )
 
