@@ -1,5 +1,5 @@
 #let doc-title = "Empty Hand Basics"
-#let doc-version = "0.2.1"
+#let doc-version = "0.3.1"
 #let author-name = "Lauge Dideriksen"
 #let todays-date = (
   datetime.today().display("[day padding:none] [month repr:long] [year]")

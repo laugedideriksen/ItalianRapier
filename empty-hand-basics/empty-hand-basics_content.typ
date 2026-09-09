@@ -259,7 +259,8 @@ For the sake of brevity, I have rewritten them in a more schematic form, but I h
 
 #cite(<capoferroRidolfoCapoFerro>, form: "author") plays are based on Wilson and Swanger's translation.
 The #cite(<FioreLiberiSword>, form: "author") _Fiore de'i Liberi_ play is based on translations by Michael Chidester and Colin Hatcher.
-Both are available on #link("https://wiktenauer.com")[Wiktenauer].
+The #cite(<Saviolo_1595>, form: "author") play is based on the English original.
+All three are available on #link("https://wiktenauer.com")[Wiktenauer].
 
 ==== Capo Ferro No. 20
 
@@ -303,3 +304,26 @@ This can be combined with different angles in the #smallcaps[passata], to the po
 *Note 2*: I am aware of two illustrated versions of _Fiore de'i Liberi_.
 In one, A is depicted with the right foot in front, in the other with the left foot in front.
 Especially with long rapiers, I have found that a #smallcaps[passata] works better than a lunge.
+
+==== Saviolo Second Ward
+
+#figure(
+  image("Saviolo_2.jpg", width: 95%),
+  caption: link(
+    "https://wiktenauer.com/images/archive/3/3b/20130915232754%21Saviolo_2.jpg",
+  ),
+)
+
+M stoccata with a small step right around the circle.
+
+S stoccata and empty-hand parry with a step right around the circle in counter-time.
+
+M right foot counter-time, imbroccata to S's face and empty-hand parry with a left-foot step toward S's left hand.
+
+S Empty-hand parry ('beating the thrust ... outward toward the left side') with step right around the circle in counter-time, then imbroccata to M's face.
+
+M Empty-hand parry while stepping his right foot towards S's left hand in counter-time and then stoccata to S's belly.
+
+S Empty-hand parry downward while stepping right foot towards M's left hand in counter-time and then stoccata to M's belly
+
+M Empty-hand parry to their right side (!), stepping diagonally backwards with their right foot in counter-time and stoccata to S's head.
