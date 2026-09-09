@@ -1,10 +1,10 @@
 This document is an attempt at a curriculum covering the basic use of the empty hand#footnote[Througout this document, I use the term 'empty hand', instead of 'off hand' or similar. I do so to emphasise it as an essential component of fencing with the rapier 'alone', rather than an unfortunate byproduct of human physiology.] in Italian rapier fencing.
-It consists of three sections: principles, knife work, and rapier work.
+It consists of four sections: principles, knife work, rapier work, and primary source plays.
 The first section sets out the principles which the remainder of the document attempts to put into practice.
 The second sections contains a collection of drills and free play excercises to be done with training knives.
 This is not an attempt at teaching knife fighting, but a way of teaching and practicing mechanics and movement patterns without the added complexity of maneouvering a 110cm length of steel.
 The third section contains drills and free play exercises focused on using the empty hand with the rapier.
-It also contains a collection of plays from various primary sources that use the empty hand.
+The fourth section contains a collection of plays from various primary sources that use the empty hand.
 
 #heading(level: 4, numbering: none)[How To Use this Document]
 Each section of this document builds on the previous: the principles laid out in section one lay the foundation for the mechanics and movements in section two on knife work.
@@ -97,7 +97,7 @@ Hold the weapon point down or point up (hammer or sabre grip to suit preference 
 In terms of footwork, think boxing or Philippino triangle footwork, not fencing.
 And whatever you do, do not lunge!
 
-=== Drills
+==== Drills
 ===== Dui Tempi
 + Implement: larger blade, e.g. bowie held point up.
 
