@@ -1,36 +1,4 @@
-// ============================================================
-// Master compiled document.
-//
-// Assumed layout (this file sits at the project root, a sibling of every
-// block's subdirectory and of the shared bib file -- matching what the
-// block templates already assume via their own "../zotero-library.bib"):
-//
-//   curriculum.typ                       <- this file
-//   zotero-library.bib
-//   empty-hand-basics/
-//     empty-hand-basics.typ
-//     empty-hand-basics_content.typ
-//     *.png
-//   <next-block>/
-//     <next-block>.typ
-//     <next-block>_content.typ
-//     ...
-//
-// To add a block once you've applied the same "wrap in a function with a
-// `standalone` parameter" treatment to its template file (see
-// empty-hand-basics.typ for the pattern): add an #import line below, and
-// add the function to the `blocks` array.
-//
-// Relative paths in Typst (image(), include(), bibliography(), ...)
-// resolve relative to the file they're WRITTEN in, not relative to
-// whichever file is being compiled -- so nothing in the block templates
-// or content files needs to change for this to work. The one thing that
-// does need to stay true: everything (this file, every block directory,
-// the bib file) must live under the same Typst project root (in your
-// case, wherever tinymist's `.git` root-marker resolves to), or you'll
-// hit a "path would escape the project root" error.
-// ============================================================
-
+#import "balance-and-voiding/balance-and-voiding.typ": balance-and-voiding
 #import "empty-hand-basics/empty-hand-basics.typ": empty-hand-basics
 #import "addressing-weaknesses/addressing-weaknesses.typ": addressing-weaknesses
 // #import "next-block/next-block.typ": next-block
@@ -38,6 +6,7 @@
 #import "@preview/in-dexter:0.7.2": *
 
 #let blocks = (
+  balance-and-voiding,
   empty-hand-basics,
   addressing-weaknesses,
   // next-block,

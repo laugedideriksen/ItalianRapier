@@ -98,12 +98,14 @@
   // ---- Bibliography ----
   // Always single-spaced/smaller, independent of spacing-mode above
   //#show bibliography: set text(size: 8pt)
-  show bibliography: set par(leading: base-leading)
-  bibliography(
-    "../zotero-library.bib",
-    style: "chicago-author-date",
-    title: "References",
-  )
+  if standalone {
+    show bibliography: set par(leading: base-leading)
+    bibliography(
+      "../zotero-library.bib",
+      style: "chicago-author-date",
+      title: "References",
+    )
+  }
 }
 
 #balance-and-voiding()
