@@ -1,6 +1,6 @@
 #import "@preview/in-dexter:0.7.2": *
 
-This document is an elaboration on materials and principles taught over the course of several classes at _Klingenspiel_ in Vienna.
+This document is an elaboration on materials and principles taught over the course of several classes at _Klingenspiel_#index[Klingenspiel] in Vienna.
 The focus of these lessons were on ways of actively using balance to prepare and initiate actions, especially voids.
 To make that possible, however, a fencer must be able to control and manipulate their balance, both in the guard and in transitory and preparatory positions.
 For many fencers, however, balance is an afterthought.
@@ -13,26 +13,27 @@ Start slow, then get faster until you are at or close to sparring speed. Live at
 
 === Fundamentals
 What is balance?
-===== Guard
+===== Guard#index[Guard]
 TK Throughout TK, come back to your guard and adjust it.
 ===== Balance/out of balance
 First standing, then from guard
-===== Drop step
+===== Drop step#index[Drop step]
 Rory Miller
 ===== Altered drop step
 Shift weight and lean, then drop-step
 ===== Lunge
 Arm, lean/shift, catch. Do not push off back foot.
-===== Traverso R
+===== Traverso R#index[Traverso]
 As lunge, but different direction
-===== Traverso L
+===== Traverso L#index[Traverso]
 As trav R, but to the other side. Leave blade in place.
-===== Passata
+===== Passata#index[Passata]
 As lunge + trav L.
-===== Passata Sotto
+===== Passata Sotto#index[Passata Sotto]
 Shift weight back, then drop step
 ===== Back lunge
 Shift weight back with a turn, then as lunge.
+This is a rare movement for a reason, but a workable alternative for anyone unable to do a passata sotto.
 ===== Volte/Incartata/Scanzo
 Shift weight, then ‘throw’ shoulder.
 ===== Gathering Step
@@ -41,13 +42,47 @@ Different ways of finishing—as a regular step, or any of the movements above.
 
 === Simple Drills
 TK. These drills work regardless of whether both fencers hold their weapon in the same hand or not.
+
 ===== On Cue
-===== On Cue with Steps
+This drill is a simplified version of classic _salle_ footwork and should be done with weapons.
+The instructor is limited to four signs: lunge, traverso left, incartata, and passata sotto.
+The goal is to help the students find a guard that lets them move in all directions.
+
+===== On Cue with Gathering Step
+As the drill above, but the instructor can also signal a gathering step forward or backward (see 'Gathering Step' above).
+For the purposes of this drill, I use the regular signals for 'step forwards' and 'step backwards'.
+
+===== On Cue with Free Steps
+As 'On Cue' above, but instead of standing still, the students move freely backwards and forwards.
+The goal is to train changes of direction, and retaining control of one's balance while in motion.
+
 ===== Stick I
+Partner drill.
+Both partners place the palm of the weapon hand against opposite ends of a dowel or broomstick.
+One leads, the other follows using lunges, traversi left, incartata, and back lunges.
+The goal is to not drop the stick.
+A certain amount of pressure on the stick helps you feel what your partner is doing.
+
 ===== Stick II
+Same as above, but adding steps forwards and backwards.
+
 ===== Stick III
-===== Bind I–III
-===== Voiding
+Same as Stick II, but there is no designated leader and follower.
+Think of it as both partners following, not both partners leading.
+
+===== Bind I--III
+The same as Stick I--III, but using rapiers in the bind.
+Once this works, add disengages.
+
+===== Voiding#index[Voiding]
+Partner drill.
+A stands in their guard, B attacks with a thrust in opposition on the inside or the outside.
+If the attack is on the inside, A voids with a incartata or scanzo; if the attack is on the outside, A voids with a traverso left.
+In both cases, A 'leaves' their blade in the middle as described above.
+
+===== Voiding in Motion
+As above, but A is freely stepping backwards and forwards.
+B keeps the distance until they attack.
 
 === Complex Drills
 
@@ -92,7 +127,7 @@ This drill combines elements of the two drills above. Fencers start at a distanc
 + As 5 above, but from the initial position, either fencer may initiate the action by seeking the bind with a gathering step. Adding this step makes for an extremely complex drill and in most cases it is best left out.
 
 ==== Improvising Drills
-Once two fencers have repertoire of actions and are comfortable moving within the idiom of their style (whether that is as broad as ‘seventeenth-century Italian rapier’ or as narrow as ‘Rapier after #cite(<capoferroRidolfoCapoFerro>, form: "author")'#index[Capo Ferro, Ridolfo]), they can begin to improvise drills like the ones above. Doing so is a great awareness drill, and can be tailored to reinforce a fencer’s strength or to address their weaknesses. Drills like these can also given a focus other than balance, e.g. moving off line, using the empty hand, blade- foot coordination, etc. I have found the following guidelines to be helpful:
+Once two fencers have repertoire of actions and are comfortable moving within the idiom of their style#index[Style] (whether that is as broad as ‘seventeenth-century Italian rapier’ or as narrow as ‘Rapier after #cite(<capoferroRidolfoCapoFerro>, form: "author")'#index[Capo Ferro, Ridolfo]), they can begin to improvise drills like the ones above. Doing so is a great awareness drill, and can be tailored to reinforce a fencer’s strength or to address their weaknesses. Drills like these can also given a focus other than balance, e.g. moving off line, using the empty hand, blade- foot coordination, etc. I have found the following guidelines to be helpful:
 - Agree on a starting distance and action, e.g. a beat and a thrust, seeking a bind, etc. The drills above are ambidextrous and symmetrical, but that is not a requirement.
 - Each iteration of the drill should be done slowly and then sped up over 4–8 repetitions.
 - Regardless of the speed, every action should be done with full force aiming at good targets.

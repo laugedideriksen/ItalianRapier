@@ -215,7 +215,7 @@ Much like primary source plays, however, not every drill is likely to work in sp
   *Variation 1*: instead of thrusting with the point, B can keep their rapier point-down and hit A in the face with the hilt.
   This is particularly nasty if the rapier has straight quillons.
 + As above, but instead of levering A's blade between empty hand and own quillons, B frees their blade, lifts their arm behind them, and thrust A from above.
-+ As above, but instead of gripping A's blade, B pushes the elbow of A's weapon arm.#footnote[Cf. the _Fiore de'i Liberi_ #index[_Fiore de'i Liberi_] adaptation below.] This is especially effective if the rapier parry has the force of a #smallcaps[battuta].
++ As above, but instead of gripping A's blade, B pushes the elbow of A's weapon arm.#footnote[Cf. the _Fiore de'i Liberi_ #index[_Fiore de\'i Liberi_] adaptation below.] This is especially effective if the rapier parry has the force of a #smallcaps[battuta].
 + A attacks on the inside with a diagonal cut to the head or shoulder.
 
   B parries with a hanging parry (#smallcaps[octav]), steps forward with the back leg and grips A's forearm with their empty hand. Riposte at will.
@@ -260,7 +260,7 @@ Where the author gives several responses to an action, only those using the empt
 For the sake of brevity, I have rewritten them in a more schematic form, but I highly recommend consulting the original sources, or translations thereof.
 
 #cite(<capoferroRidolfoCapoFerro>, form: "author") #index[Capo Ferro, Ridolfo] plays are based on Wilson and Swanger's translation.
-The #cite(<FioreLiberiSword>, form: "author") _Fiore de'i Liberi_ #index[_Fiore de'i Liberi_] play is based on translations by Michael Chidester and Colin Hatcher.
+The #cite(<FioreLiberiSword>, form: "author") _Fiore de'i Liberi_ #index[_Fiore de\'i Liberi_] play is based on translations by Michael Chidester and Colin Hatcher.
 The #cite(<Saviolo_1595>, form: "author") #index[Saviolo, Vincentio] play is based on the English original.
 All three are available on #index[#link("https://wiktenauer.com")[Wiktenauer]].
 
@@ -285,7 +285,7 @@ C then strikes D's face in #smallcaps[seconda] with a lunge, while gripping D's 
 
 ==== _Fiore de'i Liberi_
 
-_Fiore de'i Liberi_ #index-main[_Fiore de'i Liberi_] is a treatise from before rapiers were a thing and, as such, the fencing it describes differs somewhat in style from Italian rapier treatises.
+_Fiore de'i Liberi_ #index-main[_Fiore de\'i Liberi_] is a treatise from before rapiers were a thing and, as such, the fencing it describes differs somewhat in style from Italian rapier treatises.
 This technique still works, however, especially for more athletic fencers.
 I have included it here as an example of a more forceful use of the empty hand.
 
@@ -305,7 +305,7 @@ B then 'wrap[s his] sword around [A's] neck from behind, and [A] will have no de
 *Note 1*: A's initial thrust can either be direct or somewhat diagonal, thus forcing B to parry further out than otherwise.
 This can be combined with different angles in the #smallcaps[passata], to the point where it almost becomes a #smallcaps[traverso].
 
-*Note 2*: I am aware of two illustrated versions of _Fiore de'i Liberi_ #index[_Fiore de'i Liberi_].
+*Note 2*: I am aware of two illustrated versions of _Fiore de'i Liberi_ #index[_Fiore de\'i Liberi_].
 In one, A is depicted with the right foot in front, in the other with the left foot in front.
 Especially with long rapiers, I have found that a #smallcaps[passata] works better than a lunge.
 

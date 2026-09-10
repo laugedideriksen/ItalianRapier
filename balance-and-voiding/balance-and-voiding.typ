@@ -1,6 +1,6 @@
 #let balance-and-voiding(standalone: true) = {
   let doc-title = "Balance and Voiding"
-  let doc-version = "0.1.0"
+  let doc-version = "0.1.0."
   let author-name = "Lauge Dideriksen"
   let last-updated = "9 September 2026"
 

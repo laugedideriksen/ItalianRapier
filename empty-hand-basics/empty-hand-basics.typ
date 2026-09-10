@@ -10,7 +10,7 @@
 #let empty-hand-basics(standalone: true) = {
   // ---- Metadata ----
   let doc-title = "Empty Hand Basics"
-  let doc-version = "0.3.1"
+  let doc-version = "1.3.1."
   let author-name = "Lauge Dideriksen"
   let last-updated = "10 September 2026"
 

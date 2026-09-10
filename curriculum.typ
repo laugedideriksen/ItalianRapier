@@ -16,9 +16,8 @@
 )
 
 // ---- Compiled document metadata ----
-// TODO: fill in a real title (and subtitle, if you want one).
 #let doc-title = "Italian Rapier"
-#let doc-subtitle = "Drills, Lessons, and Principles" // e.g. [A Complete Curriculum for Italian Rapier]
+#let doc-subtitle = "Drills, Lessons, and Principles"
 #let author-name = "Lauge Dideriksen"
 #let todays-date = (
   datetime.today().display("[day padding:none] [month repr:long] [year]")
@@ -51,6 +50,8 @@
   #text(size: 12pt)[Last Updated: #todays-date]
 ]
 #pagebreak()
+
+#show heading.where(level: 1): set text(size: 24pt, weight: "regular")
 
 // ---- Table of Contents numbering fix ----
 // Each block's own heading show rules (level 3/4) number themselves
@@ -125,4 +126,4 @@
 // content files have any #index[] marks yet, so this page will render
 // empty until you start adding them.
 #pagebreak()
-#make-index(title: [Index], outlined: true)
+#columns(2)[#make-index(title: [Index], outlined: true)]
