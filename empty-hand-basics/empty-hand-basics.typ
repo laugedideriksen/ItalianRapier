@@ -12,9 +12,7 @@
   let doc-title = "Empty Hand Basics"
   let doc-version = "0.3.1"
   let author-name = "Lauge Dideriksen"
-  let todays-date = (
-    datetime.today().display("[day padding:none] [month repr:long] [year]")
-  )
+  let last-updated = "10 September 2026"
 
   // Document-level settings only make sense once per compiled PDF, so
   // these are no-ops when this block is included from the master.
@@ -105,7 +103,7 @@
   align(left)[
     = #doc-title (v#doc-version)
     #v(-0.8em)
-    #heading(level: 2, outlined: false)[#author-name, #todays-date]
+    #heading(level: 2, outlined: false)[#author-name, #last-updated]
   ]
   v(1em)
 

@@ -1,8 +1,10 @@
-This document is an attempt at a curriculum covering the basic use of the empty hand#footnote[Througout this document, I use the term 'empty hand', instead of 'off hand' or similar. I do so to emphasise it as an essential component of fencing with the rapier 'alone', rather than an unfortunate byproduct of human physiology.] in Italian rapier fencing.
+#import "@preview/in-dexter:0.7.2": *
+
+This document is an attempt at a curriculum covering the basic use of the empty hand#footnote[Throughout this document, I use the term 'empty hand', instead of 'off hand' or similar. I do so to emphasise it as an essential component of fencing with the rapier 'alone', rather than an unfortunate byproduct of human physiology.] in Italian rapier fencing.
 It consists of four sections: principles, knife work, rapier work, and primary source plays.
 The first section sets out the principles which the remainder of the document attempts to put into practice.
-The second sections contains a collection of drills and free play excercises to be done with training knives.
-This is not an attempt at teaching knife fighting, but a way of teaching and practicing mechanics and movement patterns without the added complexity of maneouvering a 110cm length of steel.
+The second sections contains a collection of drills and free play exercises to be done with training knives.
+This is not an attempt at teaching knife fighting, but a way of teaching and practising mechanics and movement patterns without the added complexity of maneouvering a 110cm length of steel.
 The third section contains drills and free play exercises focused on using the empty hand with the rapier.
 The fourth section contains a collection of plays from various primary sources that use the empty hand.
 
@@ -12,7 +14,7 @@ The second section contains drills and exercises to familiarise the student with
 Once those mechanics have become familiar, the third section combines them with the blade- and footwork of Italian rapier fencing.
 Finally, the plays at the end of the third section integrate the empty hand as part of longer sequences.
 Each drill is focused on a single technique and several drills can be combined to form decision drills.
-The free play exercises are meant to be a transition between drilling and sparring; they are constrained and often asymetrical, but should be carried out with increasing intensity.
+The free play exercises are meant to be a transition between drilling and sparring; they are constrained and often asymmetrical, but should be carried out with increasing intensity.
 The point, is not, however, to 'win' these exercises, it is to begin applying techniques from the drills under pressure.
 
 In an ideal world, the sections should be covered in order over the course of several weeks.
@@ -24,7 +26,7 @@ Even so, I would advice against introducing the primary source plays before the 
   level: 4,
   numbering: none,
 )[A Note for (and against) Left-handed Fencers]
-As always, drills and excercises need to be adapted when fencing (against) an opponent who wields their weapon in a different hand than you do.
+As always, drills and exercises need to be adapted when fencing (against) an opponent who wields their weapon in a different hand than you do.
 For some drills in this document, it should suffice to switch the side of attack (inside/outside), for others, I have made a note suggesting a modified version.
 Even so, there might be exercises that are simply not appropriate when fencing 'leftie' against 'rightie'.
 In those cases, trying to force a technique to work is a waste of time, and the better solution is for the fencer on the receiving end to fence with their 'other strong hand'.
@@ -33,10 +35,10 @@ In those cases, trying to force a technique to work is a waste of time, and the 
 Broadly speaking, there are four ways to use the empty hand in Italian rapier fencing: parrying, taking over, trapping, and displacing.#footnote[Fencing terminology is infamously inconsistent and this topic is no exception. These are the terms I have settled on.]
 In an empty-hand parry, the opponent's weapon is deflected first, and usually only, with the empty hand.
 This is often combined with a simultaneous (#smallcaps[stesso tempo]) attack with the rapier.
-As a rule of thumb, empty-hand parries do not work against cuts.#footnote[They can, but it is a bit sketchy. See e.g. #cite(<digrasssiHisTrueArte2000>, form: "author")'s' _His True Arte of Defence_.]
+As a rule of thumb, empty-hand parries do not work against cuts.#footnote[They can, but it is a bit sketchy. See e.g. #cite(<digrasssiHisTrueArte2000>, form: "author")'s #index[di Grassi, Giacomo] _His True Arte of Defence_.]
 When the opponent's blade is parried or displaced with the rapier, the empty hand can take over controlling their weapon, freeing up the rapier for offensive use.
 Trapping is any form of taking control over the opponent's weapon.
-This ranges from the complex traps and disarms found in some Spanish sources to simply grabbing any part of the opponent's weapon within reach.#footnote[Oppinions differ on whether it is possible to hold on to a sharpened rapier or not; to my knowledge, it has been some time since anyone tried it out.]
+This ranges from the complex traps and disarms found in some Spanish sources to simply grabbing any part of the opponent's weapon within reach.#footnote[Opinions differ on whether it is possible to hold on to a sharpened rapier or not; to my knowledge, it has been some time since anyone tried it out.]
 Finally, the empty hand can be used to displace the opponent's blade and create an opening (similarly to a #smallcaps[battuta]).
 
 While there are examples of all four types of empty-hand actions in Italian rapier treatises from the seventeenth and eighteenth centuries, parrying and taking over are by far the most common.
@@ -74,7 +76,7 @@ By drilling responses to these that incorporate the empty hand, one can alleviat
 
 #v(1.5em, weak: true)
 So much for platonic fencing.
-These are principles, not commandments and they will not apply to every situation.#footnote[Such as your opponent's avoiding your empty-hand parry by lifting their tip over your hand, as is suggested in _Den Ridderlige og Adelige Fecht-konstis_ (#cite(<a.RidderligeOcAdelige1646>, form: "year")). Any empty-hand action immediately following that will likely start from below, as that is where the hand is.]
+These are principles, not commandments and they will not apply to every situation.#footnote[Such as your opponent's avoiding your empty-hand parry by lifting their tip over your hand, as is suggested in _Den Ridderlige og Adelige Fecht-Konstis_ #index[_Den Ridderlige og Adelige Fecht-Konstis_] (#cite(<a.RidderligeOcAdelige1646>, form: "year")). Any empty-hand action immediately following that will likely start from below, as that is where the hand is.]
 Nonetheless, this document is concerned with the basics, and for that these principles will apply nine times out of ten.
 
 === Knife Work
@@ -92,9 +94,9 @@ A trainer I find especially useful for higher-intensity work is a \~16cm roll of
 It is cheap, stiff enough to be usable, yet soft enough that neither student nor teacher need to worry about anyone getting hurt.
 
 As for posture, grip, and footwork: keep it simple.
-Feet shoulder-width apart, weight on the balls of your feet, slight bend in the knees, shoulders almost square to the opponent/partner, posture relatively upright, weapon slightly in front of the body but not too far, and empty hand has described above.#footnote[This is intentionally vague. Find something that allows you to move well and is dinstinctly different from your rapier guard. Don't overthink it.]
+Feet shoulder-width apart, weight on the balls of your feet, slight bend in the knees, shoulders almost square to the opponent/partner, posture relatively upright, weapon slightly in front of the body but not too far, and empty hand has described above.#footnote[This is intentionally vague. Find something that allows you to move well and is distinctly different from your rapier guard. Don't overthink it.]
 Hold the weapon point down or point up (hammer or sabre grip to suit preference and implement) depending on exercise and do not lock the wrist.
-In terms of footwork, think boxing or Philippino triangle footwork, not fencing.
+In terms of footwork, think boxing or Filipino triangle footwork, not fencing.
 And whatever you do, do not lunge!
 
 ==== Drills
@@ -198,7 +200,7 @@ Much like primary source plays, however, not every drill is likely to work in sp
 ===== Dui Tempi
 + A attacks with a diagonal cut to the head or neck (number '1' or '2').
 
-  B parries in #smallcaps[quarta]#footnote[Following the convention of #cite(<a.RidderligeOcAdelige1646>), parries are denoted by the orientation of the blade. Thus, a parry in #smallcaps[secunda] is what later systems call a #smallcaps[terz]-parry.] or #smallcaps[secunda], depending on the attack, takes over the parry with the empty hand, and strikes A with a cut or a thrust.
+  B parries in #smallcaps[quarta]#footnote[Following the convention of _Den Ridderlige og Adelige Fecht-Konstis_ #index[_Den Ridderlige og Adelige Fecht-Konstis_] #cite(<a.RidderligeOcAdelige1646>, form: "year"), parries are denoted by the orientation of the blade. Thus, a parry in #smallcaps[secunda] is what later systems call a #smallcaps[terz]-parry.] or #smallcaps[secunda], depending on the attack, takes over the parry with the empty hand, and strikes A with a cut or a thrust.
 
   *Note*: experiment with different placements of the empty hand in relation to the blade.
 + As above, but A attacks with a thrust to the face or chest.
@@ -213,7 +215,7 @@ Much like primary source plays, however, not every drill is likely to work in sp
   *Variation 1*: instead of thrusting with the point, B can keep their rapier point-down and hit A in the face with the hilt.
   This is particularly nasty if the rapier has straight quillons.
 + As above, but instead of levering A's blade between empty hand and own quillons, B frees their blade, lifts their arm behind them, and thrust A from above.
-+ As above, but instead of gripping A's blade, B pushes the elbow of A's weapon arm.#footnote[Cf. the _Fiore de'i Liberi_ adaptation below.] This is especially effective if the rapier parry has the force of a #smallcaps[battuta].
++ As above, but instead of gripping A's blade, B pushes the elbow of A's weapon arm.#footnote[Cf. the _Fiore de'i Liberi_ #index[_Fiore de'i Liberi_] adaptation below.] This is especially effective if the rapier parry has the force of a #smallcaps[battuta].
 + A attacks on the inside with a diagonal cut to the head or shoulder.
 
   B parries with a hanging parry (#smallcaps[octav]), steps forward with the back leg and grips A's forearm with their empty hand. Riposte at will.
@@ -257,12 +259,14 @@ The following plays have been adapted from a variety of rapier treatises.
 Where the author gives several responses to an action, only those using the empty hand have been included.
 For the sake of brevity, I have rewritten them in a more schematic form, but I highly recommend consulting the original sources, or translations thereof.
 
-#cite(<capoferroRidolfoCapoFerro>, form: "author") plays are based on Wilson and Swanger's translation.
-The #cite(<FioreLiberiSword>, form: "author") _Fiore de'i Liberi_ play is based on translations by Michael Chidester and Colin Hatcher.
-The #cite(<Saviolo_1595>, form: "author") play is based on the English original.
-All three are available on #link("https://wiktenauer.com")[Wiktenauer].
+#cite(<capoferroRidolfoCapoFerro>, form: "author") #index[Capo Ferro, Ridolfo] plays are based on Wilson and Swanger's translation.
+The #cite(<FioreLiberiSword>, form: "author") _Fiore de'i Liberi_ #index[_Fiore de'i Liberi_] play is based on translations by Michael Chidester and Colin Hatcher.
+The #cite(<Saviolo_1595>, form: "author") #index[Saviolo, Vincentio] play is based on the English original.
+All three are available on #index[#link("https://wiktenauer.com")[Wiktenauer]].
 
 ==== Capo Ferro No. 20
+
+#index-main[Capo Ferro, Ridolfo]
 
 #figure(
   image("Capo_Ferro_20.png", width: 95%),
@@ -279,9 +283,9 @@ C then strikes D's face in #smallcaps[seconda] with a #smallcaps[passata], while
 *Option 2*: C parries in #smallcaps[quarta] while closing with the back foot.
 C then strikes D's face in #smallcaps[seconda] with a lunge, while gripping D's wrist with the empty hand from above.
 
-==== Fiore de'i Liberi
+==== _Fiore de'i Liberi_
 
-_Fiore de'i Liberi_ is a treatise from before rapiers were a thing and, as such, the fencing it describes differs somewhat in style from Italian rapier treatises.
+_Fiore de'i Liberi_ #index-main[_Fiore de'i Liberi_] is a treatise from before rapiers were a thing and, as such, the fencing it describes differs somewhat in style from Italian rapier treatises.
 This technique still works, however, especially for more athletic fencers.
 I have included it here as an example of a more forceful use of the empty hand.
 
@@ -301,14 +305,14 @@ B then 'wrap[s his] sword around [A's] neck from behind, and [A] will have no de
 *Note 1*: A's initial thrust can either be direct or somewhat diagonal, thus forcing B to parry further out than otherwise.
 This can be combined with different angles in the #smallcaps[passata], to the point where it almost becomes a #smallcaps[traverso].
 
-*Note 2*: I am aware of two illustrated versions of _Fiore de'i Liberi_.
+*Note 2*: I am aware of two illustrated versions of _Fiore de'i Liberi_ #index[_Fiore de'i Liberi_].
 In one, A is depicted with the right foot in front, in the other with the left foot in front.
 Especially with long rapiers, I have found that a #smallcaps[passata] works better than a lunge.
 
 ==== Saviolo's Second Ward
 
-This sequence from Saviolo's _His Practice_ (#cite(<Saviolo_1595>, form: "year")) makes for an excellent drill, with two caveats.
-First, the sequence relies on Saviolo's somewhat idiosyncratic footwork.
+This sequence from Saviolo's #index-main[Saviolo, Vincentio] _His Practice_ (#cite(<Saviolo_1595>, form: "year")) makes for an excellent drill, with two caveats.
+First, the sequence relies on Saviolo's #index[Saviolo, Vincentio] somewhat idiosyncratic footwork.
 Second, it starts from his 'second ward' which he describes as follows, somewhat contrary to the accompanying illustration (@saviolo):
 
 #set quote(block: true)

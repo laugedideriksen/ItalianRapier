@@ -1,3 +1,5 @@
+#import "@preview/in-dexter:0.7.2": *
+
 This document is an elaboration on materials and principles taught over the course of several classes at _Klingenspiel_ in Vienna.
 The focus of these lessons were on ways of actively using balance to prepare and initiate actions, especially voids.
 To make that possible, however, a fencer must be able to control and manipulate their balance, both in the guard and in transitory and preparatory positions.
@@ -45,6 +47,7 @@ TK. These drills work regardless of whether both fencers hold their weapon in th
 ===== Stick II
 ===== Stick III
 ===== Bind I–III
+===== Voiding
 
 === Complex Drills
 
@@ -77,7 +80,7 @@ Fencers start at a distance where either can strike the other with a gathering s
 + A binds onto B’s blade on the inside or outside with a gathering step; B disengages and lunges, striking A with a thrust in opposition.
 + If B attacks on the inside, A voids with a volte or scanzo; if B attacks on the outside, A voids with a traverso L. In either case, A ‘leaves’ their blade in the middle line, as described in section 1 above.
 + As 2 above, but instead of disengaging and striking, B may instead take a step backwards. If they do, A finishes the gathering step as a step forward, effectively resetting the situation.
-+ As 3 above, but from the initial position, either fencer may initiate the action with a gatheringstep. At this point, this drill begins to resemble a constrained for of sparring, and the intensity should eventually reflect that.
++ As 3 above, but from the initial position, either fencer may initiate the action with a gathering step. At this point, this drill begins to resemble a constrained for of sparring, and the intensity should eventually reflect that.
 
 ==== Third Drill
 This drill combines elements of the two drills above. Fencers start at a distance where either can strike the other with a gathering step and a lunge.
@@ -89,10 +92,10 @@ This drill combines elements of the two drills above. Fencers start at a distanc
 + As 5 above, but from the initial position, either fencer may initiate the action by seeking the bind with a gathering step. Adding this step makes for an extremely complex drill and in most cases it is best left out.
 
 ==== Improvising Drills
-Once two fencers have repertoire of actions and are comfortable moving within the idiom of their style (whether that is as broad as ‘seventeenth-century Italian rapier’ or as narrow as ‘Rapier after #cite(<capoferroRidolfoCapoFerro>, form: "author")'), they can begin to improvise drills like the ones above. Doing so is a great awareness drill, and can be tailored to reinforce a fencer’s strength or to address their weaknesses. Drills like these can also given a focus other than balance, e.g. moving off line, using the empty hand, blade- foot coordination, etc. I have found the following guidelines to be helpful:
+Once two fencers have repertoire of actions and are comfortable moving within the idiom of their style (whether that is as broad as ‘seventeenth-century Italian rapier’ or as narrow as ‘Rapier after #cite(<capoferroRidolfoCapoFerro>, form: "author")'#index[Capo Ferro, Ridolfo]), they can begin to improvise drills like the ones above. Doing so is a great awareness drill, and can be tailored to reinforce a fencer’s strength or to address their weaknesses. Drills like these can also given a focus other than balance, e.g. moving off line, using the empty hand, blade- foot coordination, etc. I have found the following guidelines to be helpful:
 - Agree on a starting distance and action, e.g. a beat and a thrust, seeking a bind, etc. The drills above are ambidextrous and symmetrical, but that is not a requirement.
 - Each iteration of the drill should be done slowly and then sped up over 4–8 repetitions.
 - Regardless of the speed, every action should be done with full force aiming at good targets.
 - Try to keep each ‘turn’ to one or, at most, two actions each.
-- Each action after the first should be what Rory Miller calls a golden move @miller2016TrainingSuddenViolence: it protects you, hurts your opponent, puts you in a better position, puts your opponent in a worse position.
+- Each action after the first should be what Rory Miller #index[Miller, Rory] calls a golden move @miller2016TrainingSuddenViolence: it protects you, hurts your opponent, puts you in a better position, puts your opponent in a worse position.
 - Keep the exchanges relatively short (2–5 ‘turns’ at most), otherwise what started as a fencing drill becomes a memory game.

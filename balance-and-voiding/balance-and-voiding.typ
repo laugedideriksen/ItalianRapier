@@ -2,9 +2,7 @@
   let doc-title = "Balance and Voiding"
   let doc-version = "0.1.0"
   let author-name = "Lauge Dideriksen"
-  let todays-date = (
-    datetime.today().display("[day padding:none] [month repr:long] [year]")
-  )
+  let last-updated = "9 September 2026"
 
   set document(title: doc-title, author: author-name)
   set page(paper: "a4", margin: 1in, numbering: "1")
@@ -87,7 +85,7 @@
   align(left)[
     = #doc-title (v#doc-version)
     #v(-0.8em)
-    #heading(level: 2, outlined: false)[#author-name, #todays-date]
+    #heading(level: 2, outlined: false)[#author-name, #last-updated]
   ]
   v(1em)
 
