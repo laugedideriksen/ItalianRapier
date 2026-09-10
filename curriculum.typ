@@ -1,5 +1,8 @@
 #import "balance-and-voiding/balance-and-voiding.typ": balance-and-voiding
 #import "empty-hand-basics/empty-hand-basics.typ": empty-hand-basics
+#import "developing-sensitivity-in-the-bind/developing-sensitivity-in-the-bind.typ": (
+  developing-sensitivity-in-the-bind,
+)
 #import "addressing-weaknesses/addressing-weaknesses.typ": addressing-weaknesses
 // #import "next-block/next-block.typ": next-block
 
