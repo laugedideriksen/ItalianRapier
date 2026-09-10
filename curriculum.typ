@@ -17,8 +17,8 @@
 
 // ---- Compiled document metadata ----
 // TODO: fill in a real title (and subtitle, if you want one).
-#let doc-title = "[Compiled Curriculum Title]"
-#let doc-subtitle = none // e.g. [A Complete Curriculum for Italian Rapier]
+#let doc-title = "Italian Rapier"
+#let doc-subtitle = "Drills, Lessons, and Principles" // e.g. [A Complete Curriculum for Italian Rapier]
 #let author-name = "Lauge Dideriksen"
 #let todays-date = (
   datetime.today().display("[day padding:none] [month repr:long] [year]")
@@ -38,6 +38,7 @@
 
 // ---- Front page ----
 // A minimal starting point -- title, optional subtitle, author, date.
+#set page(numbering: none)
 #align(center + horizon)[
   #text(size: 32pt, weight: "regular")[#doc-title]
   #if doc-subtitle != none [
@@ -47,7 +48,7 @@
   #v(2.5em)
   #text(size: 14pt)[#author-name]
   #v(0.3em)
-  #text(size: 12pt)[#todays-date]
+  #text(size: 12pt)[Last Updated: #todays-date]
 ]
 #pagebreak()
 
@@ -64,6 +65,8 @@
 // source); only reach for the counter when there's a number to compute,
 // since an unnumbered heading's counter value isn't level-shaped the
 // same way and would error on the slice below.
+#set page(numbering: "i")
+#counter(page).update(1)
 #show outline.entry.where(level: 3): it => {
   let prefix = if it.element.numbering != none {
     numbering("1.", counter(heading).at(it.element.location()).last())
@@ -89,11 +92,14 @@
 #pagebreak()
 #outline(title: [Table of Figures], target: figure)
 #pagebreak()
+#include "preface.typ"
 
 // ---- Body ----
 // Chapter numbering (level 3 in each block) runs continuously across the
 // whole compiled document rather than restarting per block, since Typst's
 // heading counter is shared document-wide by default.
+#set page(numbering: "1")
+#counter(page).update(1)
 #for (i, b) in blocks.enumerate() [
   #b(standalone: false)
   #if i < blocks.len() - 1 [#pagebreak()]

@@ -4,9 +4,9 @@ This document is an elaboration on materials and principles taught over the cour
 The focus of these lessons were on ways of actively using balance to prepare and initiate actions, especially voids.
 To make that possible, however, a fencer must be able to control and manipulate their balance, both in the guard and in transitory and preparatory positions.
 For many fencers, however, balance is an afterthought.
-For that reason, the first section of this document contains drills and exercises to develop an awareness of balance in various positions and movements.
-The second section combines these movements in a number of simple drills and partner drills.
-The third and final section contains two partner drills that gradually build from simple action/reaction to something resembling constrained sparring.
+To remedy that, the first section of this document contains drills and exercises aimed at developing an awareness of balance in various positions and movements.
+The second section combines these movements into simple solo- and partner drills.
+The third and final section contains partner drills that gradually build from simple action/reaction to something resembling constrained sparring.
 
 ===== How to Drill
 Start slow, then get faster until you are at or close to sparring speed. Live at 80–100%.

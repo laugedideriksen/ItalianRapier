@@ -1,5 +1,5 @@
 #let addressing-weaknesses(standalone: true) = {
-  let doc-title = "Addressing Weaknesses"
+  let doc-title = "Addressing Non-technical Weaknesses"
   let doc-version = "0.1.0"
   let author-name = "Lauge Dideriksen"
   let last-updated = "10 September 2026"
