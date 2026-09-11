@@ -1,4 +1,4 @@
-#import "@preview/in-dexter:0.7.2": *
+#import "../lib.typ": *
 
 This document is an elaboration on materials and principles taught over the course of several classes at _Klingenspiel_#index[Klingenspiel] in Vienna.
 The focus of these lessons were on ways of actively using balance to prepare and initiate actions, especially voids.

@@ -1,16 +1,40 @@
-#import "@preview/in-dexter:0.7.2": *
-#let index-start = index.with(index-type: indextype.Start)
-#let index-end = index.with(index-type: indextype.End)
+#import "../lib.typ": *
 
-=== Saviolo
+The guard is the fencer's foundation.
+It
+
+=== Primary Source Guards
+
+==== Saviolo
 
 #index-start[Saviolo, Vincentio]
 
-==== Second Ward
+===== First Ward
 
-This sequence from Saviolo's _His Practice_ (#cite(<Saviolo_1595>, form: "year")) makes for an excellent drill, with two caveats.
-First, the sequence relies on Saviolo's somewhat idiosyncratic footwork.
-#index-start("Saviolo, Vincentio", "Second ward")Second, it starts from his 'second ward'#index("Guard", "Saviolo's second ward") which he describes as follows, somewhat contrary to the accompanying illustration (@saviolo_w2):
+#index-start("Saviolo, Vincentio", "First ward")
+Second, it starts from his 'second ward'#index("Guard", "Saviolo's first ward") which he describes as follows, somewhat contrary to the accompanying illustration (@saviolo_w1):
+
+#set quote(block: true)
+#quote(attribution: [#cite(
+  <Saviolo_1595>,
+  supplement: "PAGE NUMBER",
+  form: "prose",
+)])[INSERT SOURCE]
+
+
+#figure(
+  image("../assets/Saviolo_1.jpg", width: 95%),
+  caption: link(
+    "https://wiktenauer.com/images/archive/4/40/20130915232741%21Saviolo_1.jpg",
+  ),
+)<saviolo_w1>
+#index-end("Saviolo, Vincentio", "First ward")
+
+
+===== Second Ward
+
+#index-start("Saviolo, Vincentio", "Second ward")
+Second, it starts from his 'second ward'#index("Guard", "Saviolo's second ward") which he describes as follows, somewhat contrary to the accompanying illustration (@saviolo_w2):
 
 #set quote(block: true)
 #quote(attribution: [#cite(
@@ -20,7 +44,7 @@ First, the sequence relies on Saviolo's somewhat idiosyncratic footwork.
 )])[[The scholler must] place his right legge formoste, a little bending the knee, so that the heele of his right foote stand just against the midst of his left foote, holding his swoord hand close on the outside of his right knee, with his swoorde helde in shorte, least his adversarye should gaine the same, ever keeping the poynte directlye on the face or bellye of his enemye]
 
 
-#figure(
+#sourced-figure(
   image("../assets/Saviolo_2.jpg", width: 95%),
   caption: link(
     "https://wiktenauer.com/images/archive/3/3b/20130915232754%21Saviolo_2.jpg",
@@ -41,5 +65,27 @@ M empty-hand parry while stepping his right foot towards S's left hand in counte
 S empty-hand parry downward while stepping right foot towards M's left hand in counter-time and then #smallcaps[stoccata] to M's belly
 
 M empty-hand parry to their right side, stepping diagonally backwards with their right foot in counter-time and #smallcaps[stoccata] to S's head.
+
+===== Third Ward
+
+#index-start("Saviolo, Vincentio", "Third ward")
+Second, it starts from his 'second ward'#index("Guard", "Saviolo's third ward") which he describes as follows, somewhat contrary to the accompanying illustration (@saviolo_w3):
+
+#set quote(block: true)
+#quote(attribution: [#cite(
+  <Saviolo_1595>,
+  supplement: "PAGE NUMBER",
+  form: "prose",
+)])[INSERT SOURCE]
+
+
+#figure(
+  image("../assets/Saviolo_3.jpg", width: 95%),
+  caption: link(
+    "https://wiktenauer.com/images/archive/4/40/20130915232805%21Saviolo_3.jpg",
+  ),
+)<saviolo_w3>
+#index-end("Saviolo, Vincentio", "Third ward")
+
 
 #index-end[Saviolo, Vincentio]
