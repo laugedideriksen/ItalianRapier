@@ -1,4 +1,6 @@
 #import "@preview/in-dexter:0.7.2": *
+#let index-start = index.with(index-type: indextype.Start)
+#let index-end = index.with(index-type: indextype.End)
 
 This document is an attempt at a curriculum covering the basic use of the empty hand#footnote[Throughout this document, I use the term 'empty hand', instead of 'off hand' or similar. I do so to emphasise it as an essential component of fencing with the rapier 'alone', rather than an unfortunate byproduct of human physiology.] in Italian rapier fencing.
 It consists of four sections: principles, knife work, rapier work, and primary source plays.
@@ -80,6 +82,8 @@ These are principles, not commandments and they will not apply to every situatio
 Nonetheless, this document is concerned with the basics, and for that these principles will apply nine times out of ten.
 
 === Knife Work
+
+#index-start[Knife work]
 As I wrote in the introduction, this section does not describe a system of knife fighting.
 Many of the drills and patterns are taken from or inspired by various knife systems, but the goal here is to get used to using both hands in concert, not to become proficient at using a knife.
 Working with knives when learning to use the empty hand has several advantages.
@@ -184,6 +188,7 @@ In any case, the focus should remain on using both hands together, not on winnin
 + Limited targeting: the only valid targets are e.g. the back, the face, or the trunk.
 + Multiple hits: Do not reset after each hit, but continue until someone has been hit multiple times.
 + As above, but pursue a situation where the opponent is unable to counter, even if given tempo to do so.
+#index-end[Knife work]
 
 === Rapier Work
 Before attempting any of the drills below, spend some time integrating the lessons learned from the knife work into your rapier basics---especially stance and footwork.
@@ -255,6 +260,8 @@ Much like primary source plays, however, not every drill is likely to work in sp
 + As above, but pursue a situation where the opponent is unable to counter, even if given tempo to do so.
 
 === Primary Source Plays
+
+#index-start[Primary source plays]
 The following plays have been adapted from a variety of rapier treatises.
 Where the author gives several responses to an action, only those using the empty hand have been included.
 For the sake of brevity, I have rewritten them in a more schematic form, but I highly recommend consulting the original sources, or translations thereof.
@@ -266,7 +273,8 @@ All three are available on #index[#link("https://wiktenauer.com")[Wiktenauer]].
 
 ==== Capo Ferro No. 20
 
-#index-main[Capo Ferro, Ridolfo]
+#index-start[Capo Ferro, Ridolfo]
+#index-start("Primary source plays", "Capo Ferro: plate No. 20")
 
 #figure(
   image("Capo_Ferro_20.png", width: 95%),
@@ -282,10 +290,13 @@ C then strikes D's face in #smallcaps[seconda] with a #smallcaps[passata], while
 
 *Option 2*: C parries in #smallcaps[quarta] while closing with the back foot.
 C then strikes D's face in #smallcaps[seconda] with a lunge, while gripping D's wrist with the empty hand from above.
+#index-end("Primary source plays", "Capo Ferro: plate No. 20")
+#index-end[Capo Ferro, Ridolfo]
 
-==== _Fiore de'i Liberi_
+==== _Fiore de'i Liberi_ 14d
 
-_Fiore de'i Liberi_ #index-main[_Fiore de\'i Liberi_] is a treatise from before rapiers were a thing and, as such, the fencing it describes differs somewhat in style from Italian rapier treatises.
+#index-start("Primary source plays", "Fiore de'i Liberi: 14d")
+#index-start[_Fiore de\'i Liberi_]_Fiore de'i Liberi_ is a treatise from before rapiers were a thing and, as such, the fencing it describes differs somewhat in style from Italian rapier treatises.
 This technique still works, however, especially for more athletic fencers.
 I have included it here as an example of a more forceful use of the empty hand.
 
@@ -305,15 +316,17 @@ B then 'wrap[s his] sword around [A's] neck from behind, and [A] will have no de
 *Note 1*: A's initial thrust can either be direct or somewhat diagonal, thus forcing B to parry further out than otherwise.
 This can be combined with different angles in the #smallcaps[passata], to the point where it almost becomes a #smallcaps[traverso].
 
-*Note 2*: I am aware of two illustrated versions of _Fiore de'i Liberi_ #index[_Fiore de\'i Liberi_].
+*Note 2*: I am aware of two illustrated versions of _Fiore de'i Liberi_.
 In one, A is depicted with the right foot in front, in the other with the left foot in front.
-Especially with long rapiers, I have found that a #smallcaps[passata] works better than a lunge.
+Especially with long rapiers, I have found that a #smallcaps[passata] works better than a lunge.#index-end[_Fiore de\'i Liberi_]
+#index-end("Primary source plays", "Fiore de'i Liberi: 14d")
 
 ==== Saviolo's Second Ward
 
-This sequence from Saviolo's #index-main[Saviolo, Vincentio] _His Practice_ (#cite(<Saviolo_1595>, form: "year")) makes for an excellent drill, with two caveats.
-First, the sequence relies on Saviolo's #index[Saviolo, Vincentio] somewhat idiosyncratic footwork.
-Second, it starts from his 'second ward' which he describes as follows, somewhat contrary to the accompanying illustration (@saviolo):
+#index-start("Primary source plays", "Saviolo: second ward")
+#index-start[Saviolo, Vincentio]This sequence from Saviolo's _His Practice_ (#cite(<Saviolo_1595>, form: "year")) makes for an excellent drill, with two caveats.
+First, the sequence relies on Saviolo's somewhat idiosyncratic footwork.
+#index-start("Saviolo, Vincentio", "Second ward")Second, it starts from his 'second ward'#index("Guard", "Saviolo's second ward") which he describes as follows, somewhat contrary to the accompanying illustration (@saviolo):
 
 #set quote(block: true)
 #quote(attribution: [#cite(
@@ -329,6 +342,7 @@ Second, it starts from his 'second ward' which he describes as follows, somewhat
     "https://wiktenauer.com/images/archive/3/3b/20130915232754%21Saviolo_2.jpg",
   ),
 )<saviolo>
+#index-end("Saviolo, Vincentio", "Second ward")
 
 M #smallcaps[stoccata] with a small step right around the circle.
 
@@ -342,4 +356,6 @@ M empty-hand parry while stepping his right foot towards S's left hand in counte
 
 S empty-hand parry downward while stepping right foot towards M's left hand in counter-time and then #smallcaps[stoccata] to M's belly
 
-M empty-hand parry to their right side, stepping diagonally backwards with their right foot in counter-time and #smallcaps[stoccata] to S's head.
+M empty-hand parry to their right side, stepping diagonally backwards with their right foot in counter-time and #smallcaps[stoccata] to S's head.#index-end[Saviolo, Vincentio]
+#index-end("Primary source plays", "Saviolo: second ward")
+#index-end[Primary source plays]

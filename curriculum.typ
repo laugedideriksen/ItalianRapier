@@ -126,4 +126,10 @@
 // content files have any #index[] marks yet, so this page will render
 // empty until you start adding them.
 #pagebreak()
-#columns(2)[#make-index(title: [Index], outlined: true)]
+#columns(2)[#make-index(
+  title: [Index],
+  outlined: true,
+  use-page-counter: true,
+  spc: none,
+  mpc: none,
+)]
