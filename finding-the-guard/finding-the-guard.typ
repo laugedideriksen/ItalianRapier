@@ -95,6 +95,8 @@
     ]
   }
 
+  show link: it => text(fill: rgb("#0000ff"), it)
+
   // ---- Title block ----
   // Reused whether standalone or included in the master (per your answer).
   // The author/date line is marked `outlined: false` so it doesn't clutter

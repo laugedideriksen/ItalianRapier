@@ -1,6 +1,4 @@
-#import "@preview/in-dexter:0.7.2": *
-#let index-start = index.with(index-type: indextype.Start)
-#let index-end = index.with(index-type: indextype.End)
+#import "../lib.typ": *
 
 This document is an attempt at a curriculum covering the basic use of the empty hand#footnote[Throughout this document, I use the term 'empty hand', instead of 'off hand' or similar. I do so to emphasise it as an essential component of fencing with the rapier 'alone', rather than an unfortunate byproduct of human physiology.] in Italian rapier fencing.
 It consists of four sections: principles, knife work, rapier work, and primary source plays.
@@ -269,16 +267,18 @@ For the sake of brevity, I have rewritten them in a more schematic form, but I h
 #cite(<capoferroRidolfoCapoFerro>, form: "author") #index[Capo Ferro, Ridolfo] plays are based on Wilson and Swanger's translation.
 The #cite(<FioreLiberiSword>, form: "author") _Fiore de'i Liberi_ #index[_Fiore de\'i Liberi_] play is based on translations by Michael Chidester and Colin Hatcher.
 The #cite(<Saviolo_1595>, form: "author") #index[Saviolo, Vincentio] play is based on the English original.
-All three are available on #index[#link("https://wiktenauer.com")[Wiktenauer]].
+All three are available on #link("https://wiktenauer.com")[Wiktenauer]#index[Wiktenauer].
 
 ==== Capo Ferro No. 20
 
 #index-start[Capo Ferro, Ridolfo]
 #index-start("Primary source plays", "Capo Ferro: plate No. 20")
 
-#figure(
-  image("Capo_Ferro_20.png", width: 95%),
-  caption: link("https://wiktenauer.com/wiki/File:Capo_Ferro_20.png"),
+#sourced-figure(
+  image("../assets/Capo_Ferro_20.png", width: 95%),
+  caption: [Plate 20 from Capo Ferro's _Gran Simulacro_.],
+  source: "https://wiktenauer.com/wiki/File:Capo_Ferro_20.png",
+  tag: "capoferro20",
 )
 
 C #smallcaps[stringere] D on the outside.
@@ -300,9 +300,11 @@ C then strikes D's face in #smallcaps[seconda] with a lunge, while gripping D's 
 This technique still works, however, especially for more athletic fencers.
 I have included it here as an example of a more forceful use of the empty hand.
 
-#figure(
-  image("Pisani-Dossi_MS_14a-d.png", width: 95%),
-  caption: link("https://wiktenauer.com/images/7/7f/Pisani-Dossi_MS_14a-d.png"),
+#sourced-figure(
+  image("../assets/Pisani-Dossi_MS_14a-d.png", width: 95%),
+  caption: [Illustration 14d from _Pisani Dossi_ manuscript.],
+  source: "https://wiktenauer.com/images/7/7f/Pisani-Dossi_MS_14a-d.png",
+  tag: "fiore14d",
 )
 
 A attacks B on the inside with a thrust in #smallcaps[prima] or #smallcaps[secunda].
@@ -335,13 +337,12 @@ First, the sequence relies on Saviolo's somewhat idiosyncratic footwork.
   form: "prose",
 )])[[The scholler must] place his right legge formoste, a little bending the knee, so that the heele of his right foote stand just against the midst of his left foote, holding his swoord hand close on the outside of his right knee, with his swoorde helde in shorte, least his adversarye should gaine the same, ever keeping the poynte directlye on the face or bellye of his enemye]
 
-
-#figure(
-  image("Saviolo_2.jpg", width: 95%),
-  caption: link(
-    "https://wiktenauer.com/images/archive/3/3b/20130915232754%21Saviolo_2.jpg",
-  ),
-)<saviolo>
+#sourced-figure(
+  image("../assets/Saviolo_2.jpg", width: 95%),
+  caption: [Saviolo's second ward.],
+  source: "https://wiktenauer.com/images/archive/3/3b/20130915232754%21Saviolo_2.jpg",
+  tag: "saviolo",
+)
 #index-end("Saviolo, Vincentio", "Second ward")
 
 M #smallcaps[stoccata] with a small step right around the circle.

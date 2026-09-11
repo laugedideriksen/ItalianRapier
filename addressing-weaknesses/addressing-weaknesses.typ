@@ -81,6 +81,8 @@
     ]
   }
 
+  show link: it => text(fill: rgb("#0000ff"), it)
+
   // ---- Title block ----
   align(left)[
     = #doc-title (v#doc-version)
