@@ -1,3 +1,4 @@
+#import "finding-the-guard/finding-the-guard.typ": finding-the-guard
 #import "balance-and-voiding/balance-and-voiding.typ": balance-and-voiding
 #import "empty-hand-basics/empty-hand-basics.typ": empty-hand-basics
 #import "developing-sensitivity-in-the-bind/developing-sensitivity-in-the-bind.typ": (
@@ -9,6 +10,7 @@
 #import "@preview/in-dexter:0.7.2": *
 
 #let blocks = (
+  finding-the-guard,
   balance-and-voiding,
   empty-hand-basics,
   addressing-weaknesses,
