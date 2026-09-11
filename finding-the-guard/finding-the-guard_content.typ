@@ -1,7 +1,8 @@
 #import "../lib.typ": *
 
 The guard is the fencer's foundation.
-It
+TK.
+It is also one of the most characteristic elements of most rapier styles---Fabris, Capo Ferro, and Thibault are all recognisable from the posture alone.
 
 === Primary Source Guards
 
@@ -46,10 +47,11 @@ Second, it starts from his 'second ward'#index("Guard", "Saviolo's second ward")
 
 #sourced-figure(
   image("../assets/Saviolo_2.jpg", width: 95%),
-  caption: link(
-    "https://wiktenauer.com/images/archive/3/3b/20130915232754%21Saviolo_2.jpg",
-  ),
-)<saviolo_w2>
+  caption: [Saviolo's second ward.],
+  source: "https://wiktenauer.com/images/archive/3/3b/20130915232754%21Saviolo_2.jpg",
+  tag: "saviolo_w2",
+)
+
 #index-end("Saviolo, Vincentio", "Second ward")
 
 M #smallcaps[stoccata] with a small step right around the circle.

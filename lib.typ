@@ -4,8 +4,10 @@
 #let index-start = index.with(index-type: indextype.Start)
 #let index-end = index.with(index-type: indextype.End)
 
-#let sourced-figure(img, caption: [], source: none) = block(breakable: false)[
-  #figure(img, caption: caption)
+#let sourced-figure(img, caption: [], source: none, tag: none) = block(
+  breakable: false,
+)[
+  #figure(img, caption: caption)#if tag != none { label(tag) }
   #if source != none [
     #align(center)[
       #text(size: 8pt, style: "italic")[Source: #link(source)[#source]]
