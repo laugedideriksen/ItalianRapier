@@ -104,6 +104,7 @@
 #set page(numbering: "1")
 #counter(page).update(1)
 #for (i, b) in blocks.enumerate() [
+  #counter(heading).update(0)
   #b(standalone: false)
   #if i < blocks.len() - 1 [#pagebreak()]
 ]
