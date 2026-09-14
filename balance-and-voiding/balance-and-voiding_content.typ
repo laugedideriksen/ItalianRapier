@@ -15,27 +15,38 @@ Start slow, then get faster until you are at or close to sparring speed. Live at
 What is balance?
 ===== Guard#index[Guard]
 TK Throughout TK, come back to your guard and adjust it.
+
 ===== Balance/out of balance
 First standing, then from guard
+
 ===== Drop step#index[Drop step]
 Rory Miller
+
 ===== Altered drop step
 Shift weight and lean, then drop-step
-===== Lunge
+
+===== Lunge#index[Lunge]
 Arm, lean/shift, catch. Do not push off back foot.
+
 ===== Traverso R#index[Traverso]
 As lunge, but different direction
+
 ===== Traverso L#index[Traverso]
 As trav R, but to the other side. Leave blade in place.
+
 ===== Passata#index[Passata]
 As lunge + trav L.
+
 ===== Passata Sotto#index[Passata Sotto]
 Shift weight back, then drop step
+
 ===== Back lunge
 Shift weight back with a turn, then as lunge.
 This is a rare movement for a reason, but a workable alternative for anyone unable to do a passata sotto.
+
 ===== Volte/Incartata/Scanzo
 Shift weight, then ‘throw’ shoulder.
+
 ===== Gathering Step
 Different ways of finishing—as a regular step, or any of the movements above.
 

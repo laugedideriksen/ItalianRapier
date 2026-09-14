@@ -203,7 +203,7 @@ Much like primary source plays, however, not every drill is likely to work in sp
 ===== Dui Tempi
 + A attacks with a diagonal cut to the head or neck (number '1' or '2').
 
-  B parries in #smallcaps[quarta]#footnote[Following the convention of _Den Ridderlige og Adelige Fecht-Konstis_ #index[_Den Ridderlige og Adelige Fecht-Konstis_] #cite(<a.RidderligeOcAdelige1646>, form: "year"), parries are denoted by the orientation of the blade. Thus, a parry in #smallcaps[secunda] is what later systems call a #smallcaps[terz]-parry.] or #smallcaps[secunda], depending on the attack, takes over the parry with the empty hand, and strikes A with a cut or a thrust.
+  B parries in #smallcaps[quarta] or #smallcaps[secunda],#footnote[Following the convention of _Den Ridderlige og Adelige Fecht-Konstis_ #index[_Den Ridderlige og Adelige Fecht-Konstis_] #cite(<a.RidderligeOcAdelige1646>, form: "year"), parries are denoted by the orientation of the blade. Thus, a parry in #smallcaps[secunda] is what later systems call a #smallcaps[terz]-parry.] depending on the attack, takes over the parry with the empty hand, and strikes A with a cut or a thrust.
 
   *Note*: experiment with different placements of the empty hand in relation to the blade.
 + As above, but A attacks with a thrust to the face or chest.
@@ -266,7 +266,7 @@ For the sake of brevity, I have rewritten them in a more schematic form, but I h
 
 #cite(<capoferroRidolfoCapoFerro>, form: "author") #index[Capo Ferro, Ridolfo] plays are based on Wilson and Swanger's translation.
 The #cite(<FioreLiberiSword>, form: "author") _Fiore de'i Liberi_ #index[_Fiore de\'i Liberi_] play is based on translations by Michael Chidester and Colin Hatcher.
-The #cite(<Saviolo_1595>, form: "author") #index[Saviolo, Vincentio] play is based on the English original.
+The #cite(<Saviolo_1595>, form: "author") #index[Saviolo, Vincentio] sequence is based on the English original.
 All three are available on #link("https://wiktenauer.com")[Wiktenauer]#index[Wiktenauer].
 
 ==== Capo Ferro No. 20
@@ -302,7 +302,7 @@ I have included it here as an example of a more forceful use of the empty hand.
 
 #sourced-figure(
   image("../assets/Pisani-Dossi_MS_14a-d.png", width: 95%),
-  caption: [Illustration 14d from _Pisani Dossi_ manuscript.],
+  caption: [Illustration 14d from the _Pisani Dossi_ manuscript.],
   source: "https://wiktenauer.com/images/7/7f/Pisani-Dossi_MS_14a-d.png",
   tag: "fiore14d",
 )
