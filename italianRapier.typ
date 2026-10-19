@@ -5,6 +5,7 @@
   developing-sensitivity-in-the-bind,
 )
 #import "addressing-weaknesses/addressing-weaknesses.typ": addressing-weaknesses
+#import "cues-and-details/cues-and-details.typ": cues-and-details
 // #import "next-block/next-block.typ": next-block
 
 #import "@preview/in-dexter:0.7.2": *
@@ -14,6 +15,7 @@
   balance-and-voiding,
   empty-hand-basics,
   addressing-weaknesses,
+  cues-and-details,
   // next-block,
 )
 
