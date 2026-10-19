@@ -38,7 +38,7 @@ All three, however, address the same TK: mobility, TK, and limiting the opponent
 In _His Practice_ (#cite(<Saviolo_1595>, form: "year")), Vincentio Saviolo describes three guards ('wards') for single rapier.
 Although he writes that all three are useful in practice, he also emphasises the didactic quality of the first two: the first ward teaches nimbleness, judgement, and coordination; the second ward teaches the use of the empty hand, stoccata, and imbroccata.
 
-'frame your hand, your foote, and your body, all which partes must goe together, and unlesse you can stirre and move all these together, you shall never be able to performe any great matter, but with great danger)' #cite(<Saviolo_1595>, supplement: "8")
+'frame your hand, your foote, and your body, all which partes must goe together, and unlesse you can stirre and move all these together, you shall never be able to performe any great matter, but with great danger' #cite(<Saviolo_1595>, supplement: "8").
 
 ===== First Ward
 
