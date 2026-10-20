@@ -138,6 +138,8 @@
     ]
   }
 
+  [#metadata(doc-title) <block-title>]
+
   // ---- Title block ----
   // Reused whether standalone or included in the master.
   align(left)[
