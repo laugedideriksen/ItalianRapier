@@ -83,6 +83,7 @@
 // headings (level 5) out of the contents listing; raise it if you want
 // them included after all.
 #[
+  #set par(justify: true)
   #show: link-and-ref-style
   #include "preface.typ"
 ]

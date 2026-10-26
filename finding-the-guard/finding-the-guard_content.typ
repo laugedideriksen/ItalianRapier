@@ -17,7 +17,8 @@ It seems to me that a guard needs to accomplish TK things:
 === Primary Source Guards
 
 I have included examples from three treatises: #cite(<capoferroRidolfoCapoFerro>, form: "author") Ridolfo Capo Ferro's _Gran Simulacro_, #cite(<Saviolo_1595>, form: "author")'s _His Practice_, and #cite(<fabrissalvator2022SchermoOveroScienza>, form: "author")'s _Scienza d’Arme_.
-Where Saviolo is relatively upright, Capo Ferro leans back and Fabris is bends over forward.
+These are examples of three very different postures:
+Saviolo is relatively upright, Capo Ferro leans back and Fabris is bent over forward.
 All three, however, address the same TK: mobility, TK, and limiting the opponent's options.
 
 ==== Capo Ferro
@@ -36,10 +37,13 @@ All three, however, address the same TK: mobility, TK, and limiting the opponent
 
 ==== Saviolo: _His Practice_ (#cite(<Saviolo_1595>, form: "year"))
 
+#set quote(block: true)
+
 #index-start[Saviolo, Vincentio]
 In _His Practice_ (#cite(<Saviolo_1595>, form: "year")), Vincentio Saviolo describes three guards ('wards') for single rapier.
-Although he writes that all three are useful in practice, he also emphasises the didactic quality of the first two: the first ward teaches nimbleness, judgement, and coordination; the second ward teaches the use of the empty hand, stoccata, and imbroccata.
+Although he writes that all three are useful in practice, he also emphasises the didactic quality of the first two: the first ward teaches nimbleness, judgement, and coordination; the second ward teaches the stoccata, the imbroccata, and the use of the empty hand. (See also @empty-hand-saviolo-2).
 
+According to Saviolo the guard must
 'frame your hand, your foote, and your body, all which partes must goe together, and unlesse you can stirre and move all these together, you shall never be able to performe any great matter, but with great danger' #cite(<Saviolo_1595>, supplement: "8").
 
 ===== First Ward
@@ -49,7 +53,6 @@ Describing his first ward#index("Guard", "Saviolo's first ward")
 'breeds a judgement of the time, and a readinesse and nimblenesse as well of the hand as the foote, together with the body: and from this you come prepared to learne other wards with more facilitie, and to have a greater insight and understanding in many things' #cite(<Saviolo_1595>, supplement: "16") (@saviolo_w1).
 On his account, 'many Nations use this ward in fight verie much, especially with the single rapier, both Italians, French-men, Spaniards, & Almanes' #cite(<Saviolo_1595>, supplement: "16").
 
-#set quote(block: true)
 #quote(attribution: [#cite(
   <Saviolo_1595>,
   supplement: "8–9",
@@ -125,5 +128,13 @@ Fabris' guards are in many way the opposite of Capo Ferro's.
 It is also a style with which I have very little experience, and so in no way should what I write here be taken as gospel.
 #index("Guard", "Fabris' terza")
 
-
 #index-end[Fabris, Salvator]
+
+=== Summary
+
+TK.
+The most obvious conclusion is that there are many ways to skin the poor, proverbial cat.
+Looking closer at each of the treatises, it becomes clear that within each system several guards not only exist, but are necessary.
+TK.
+Thinking of them and practising them as 'ready positions' is didactically useful, but eventually a fencer must learn to also think of them as postures one may pass through in the course of an exchange.
+
