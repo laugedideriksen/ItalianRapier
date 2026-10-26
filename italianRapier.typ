@@ -59,18 +59,6 @@
 #show heading.where(level: 1): set text(size: 24pt, weight: "regular")
 
 // ---- Table of Contents numbering fix ----
-// Each block's own heading show rules (level 3/4) number themselves
-// correctly *inline*, by deliberately dropping the leading zero(s) that
-// come from levels 1-2 having no numbering of their own (their
-// `nums.pos().last()` / `.slice(-2)` trick). Typst's #outline() doesn't
-// know about that trick and would otherwise print "0.0.1. Principles"
-// instead of "1. Principles" -- this reapplies the same fix to the ToC.
-// Level 4 covers both numbered headings ("Drills") and ones explicitly
-// marked `numbering: none` ("How To Use this Document", "Terminology",
-// etc. -- carried over from the original \section*{} in the LaTeX
-// source); only reach for the counter when there's a number to compute,
-// since an unnumbered heading's counter value isn't level-shaped the
-// same way and would error on the slice below.
 #set page(numbering: "i")
 #counter(page).update(1)
 #show outline.entry.where(level: 3): it => {
@@ -94,14 +82,15 @@
 // depth: 4 keeps the run-in "Dui Tempi" / "Stesso Tempo" / "Free Play"
 // headings (level 5) out of the contents listing; raise it if you want
 // them included after all.
-#outline(title: [Table of Contents], depth: 4)
-#pagebreak()
-#outline(title: [Table of Figures], target: figure)
-#pagebreak()
 #[
   #show: link-and-ref-style
   #include "preface.typ"
 ]
+#pagebreak()
+#outline(title: [Table of Contents], depth: 4)
+#pagebreak()
+#outline(title: [Table of Figures], target: figure)
+#pagebreak()
 
 // ---- Body ----
 // Chapter numbering (level 3 in each block) runs continuously across the
