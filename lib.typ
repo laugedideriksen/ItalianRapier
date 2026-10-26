@@ -142,7 +142,11 @@
   // ---- Title block ----
   // Reused whether standalone or included in the master.
   align(left)[
-    #heading(level: 1)[#doc-title (v#doc-version)]#if tag != none { label(tag) }
+    #heading(
+      level: 1,
+    )[#doc-title (v#doc-version)#if standalone { footnote[This document is part of a collection of texts on Italian rapier fencing, and may reference parts that are not included here. The current version of the full collection can be found on #link("https://github.com/laugedideriksen/ItalianRapier").] }]#if (
+      tag != none
+    ) { label(tag) }
     #if standalone {
       v(-0.8em)
       heading(level: 2, outlined: false)[#author-name, #todays-date]
