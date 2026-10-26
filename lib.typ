@@ -14,6 +14,40 @@
   ]
 ]
 
+#let link-and-ref-style(body) = {
+  show ref: it => {
+    let el = it.element
+    if el != none and el.func() == heading and it.supplement == auto {
+      // Which block does a given location belong to?
+      let block-at(loc) = {
+        let found = query(selector(<block-title>).before(loc))
+        if found.len() > 0 { found.last().value } else { none }
+      }
+      if el.level == 1 {
+        let name = block-at(el.location())
+        link(el.location(), emph(if name != none { name } else { el.body }))
+      } else if el.numbering != none and el.level in (3, 4) {
+        let nums = counter(heading).at(el.location())
+        let n = if el.level == 3 { numbering("1", nums.last()) } else {
+          numbering("1.1", ..nums.slice(-2))
+        }
+        let target-block = block-at(el.location())
+        let here-block = block-at(it.location())
+        let cross = target-block != none and target-block != here-block
+        link(
+          el.location(),
+        )[#el.supplement #n#if cross [ of #emph(target-block)]]
+      } else { it }
+    } else { it }
+  }
+
+  // Only external URLs are blue; internal links keep the text colour.
+  show link: it => if type(it.dest) == str {
+    text(fill: rgb("#0000ff"), it)
+  } else { it }
+
+  body
+}
 
 #let block-layout(
   body,
@@ -60,42 +94,7 @@
     spacing: base-leading * spacing-factor,
   )
 
-  // ---- Heading Reference ----
-  show ref: it => {
-    let el = it.element
-    if el != none and el.func() == heading and it.supplement == auto {
-      // Which block does a given location belong to?
-      let block-at(loc) = {
-        let found = query(selector(<block-title>).before(loc))
-        if found.len() > 0 { found.last().value } else { none }
-      }
-      if el.level == 1 {
-        // A reference to a whole block: its title, without the version.
-        link(el.location(), emph(block-at(el.location())))
-      } else if el.numbering != none and el.level in (3, 4) {
-        let nums = counter(heading).at(el.location())
-        let n = if el.level == 3 { numbering("1", nums.last()) } else {
-          numbering("1.1", ..nums.slice(-2))
-        }
-        // Numbering restarts in every block, so a reference that crosses into
-        // another block names that block ("Section 2 of Second Block").
-        let target-block = block-at(el.location())
-        let here-block = block-at(it.location())
-        let cross = (
-          target-block != none
-            and here-block != none
-            and target-block != here-block
-        )
-        link(
-          el.location(),
-        )[#el.supplement #n#if cross [ of #emph(target-block)]]
-      } else { it }
-    } else { it }
-  }
-
-
-  show figure.caption: set text(size: 10pt)
-  show link: it => text(fill: rgb("#0000ff"), it)
+  show: link-and-ref-style
 
   show heading.where(level: 1): set text(size: 24pt, weight: "regular")
 

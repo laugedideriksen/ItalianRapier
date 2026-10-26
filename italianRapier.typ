@@ -1,3 +1,4 @@
+#import "lib.typ": link-and-ref-style
 #import "finding-the-guard/finding-the-guard.typ": finding-the-guard
 #import "balance-and-voiding/balance-and-voiding.typ": balance-and-voiding
 #import "empty-hand-basics/empty-hand-basics.typ": empty-hand-basics
@@ -97,7 +98,10 @@
 #pagebreak()
 #outline(title: [Table of Figures], target: figure)
 #pagebreak()
-#include "preface.typ"
+#[
+  #show: link-and-ref-style
+  #include "preface.typ"
+]
 
 // ---- Body ----
 // Chapter numbering (level 3 in each block) runs continuously across the
