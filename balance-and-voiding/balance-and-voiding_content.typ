@@ -3,30 +3,44 @@
 This document is an elaboration on materials and principles taught over the course of several classes at _Klingenspiel_#index[Klingenspiel] in Vienna.
 The focus of these lessons were on ways of actively using balance to prepare and initiate actions, especially voids.
 To make that possible, however, a fencer must be able to control and manipulate their balance, both in the guard and in transitory and preparatory positions.
-For many fencers, however, balance is an afterthought.
+For many fencers, however, balance is something they try to retain (to 'keep one's balance'), not something they actively use.
 To remedy that, the first section of this document contains drills and exercises aimed at developing an awareness of balance in various positions and movements.
+It also contains descriptions of how I manipulate my balance to initiate various common pieces of footwork.
 The second section combines these movements into simple solo- and partner drills.
 The third and final section contains partner drills that gradually build from simple action/reaction to something resembling constrained sparring.
 
-===== How to Drill
-Start slow, then get faster until you are at or close to sparring speed. Live at 80–100%.
-
 === Fundamentals
-What is balance?
-===== Guard#index[Guard]
-TK Throughout TK, come back to your guard and adjust it.
+The human body has two centres of balance.
+One, the head, is gimballed, the other, the 'centre of gravity', is located somewhere around the navel; moving either causes the rest of the body to follow.
+It can be helpful to think of the rapier as a third centre of balance.
+It is not as potent as the other two, but especially a heavier rapier can significantly alter one's balance.
+For the purposes of this chapter then, one can think of 'balance'#index[Balance] as the equilibrium between the two centres, the rapier, and whatever is counteracting gravity---usually one or both feet.
+The distance and orientation of your feet, your 'base', is another important factor.
+Standing on both feet, set roughly shoulder-width apart provides a stable platform, standing on the toes of a single foot does not.
+As we shall see, however, stability is not always desirable, and neither is a broad, stable base.
 
-===== Balance/out of balance
-First standing, then from guard
+The first step toward intentionally manipulating one's balance is to become sensitive to it.
+Therefore, before working on any of the material below---preferably before reading any further---take your rapier and move as you usually would, observing your balance as you do so.
+As you work through the rest of this chapter, endeavour to come back to this awareness; it is the basis for everything below.
+
+===== Guard#index[Guard]
+While this chapter is agnostic to the style of your guard, but there are a some things that I have found helpful: #footnote[For a thorough discussion of rapier guards, see @finding-the-guard, as well as @developing-the-guard.]
+- Place the majority of your weight on the balls of your feet. This does not mean lifting your heels of the floor, however!
+- While in your guard, slowly move your one or both of your centres of balance in a direction until you cross the point where you can no longer stay in place and have to catch yourself.
+- Practice moving right up to that 'point of no return' and stay there.
+- Change a small detail---the angle of your back foot, the distance between your feet ('North/South' and or 'East/West') and observe how that changes any of the above.
+
+When working through the rest of this chapter, periodically come back to the guard and see if anything needs altering.
 
 ===== Drop step#index[Drop step]
-Rory Miller
+The drop step is used across martial arts, but I became aware of it through the work of Rory Miller#index[Miller, Rory].#footnote[See also #link("https://chirontraining.blogspot.com/2011/10/drop-step.html").]
+In essence, a drop step in an intentional free fall.
 
-===== Altered drop step
+===== Altered drop step#index[Drop step]
 Shift weight and lean, then drop-step
 
 ===== Lunge#index[Lunge]
-Arm, lean/shift, catch. Do not push off back foot.
+Arm, lean/shift, drop step, catch. Do not push off back foot.
 
 ===== Traverso R#index[Traverso]
 As lunge, but different direction
@@ -44,7 +58,7 @@ Shift weight back, then drop step
 Shift weight back with a turn, then as lunge.
 This is a rare movement for a reason, but a workable alternative for anyone unable to do a passata sotto.
 
-===== Volte/Incartata/Scanzo
+===== Incartata (Volte)#index[Incartata]/Scanzo#index[Scanzo]
 Shift weight, then ‘throw’ shoulder.
 
 ===== Gathering Step
