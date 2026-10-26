@@ -325,8 +325,9 @@ Especially with long rapiers, I have found that a #smallcaps[passata] works bett
 
 ==== Saviolo's Second Ward
 
-#index-start("Primary source plays", "Saviolo: second ward")
-#index-start[Saviolo, Vincentio]This sequence from Saviolo's _His Practice_ (#cite(<Saviolo_1595>, form: "year")) makes for an excellent drill, with two caveats.
+#index-start("Primary source plays", "Saviolo: Second Ward")
+#index-start[Saviolo, Vincentio]
+This sequence from Saviolo's _His Practice_ (#cite(<Saviolo_1595>, form: "year")) makes for an excellent drill, with two caveats.
 First, the sequence relies on Saviolo's somewhat idiosyncratic footwork.
 #index-start("Saviolo, Vincentio", "Second ward")Second, it starts from his 'second ward'#index("Guard", "Saviolo's second ward") which he describes as follows, somewhat contrary to the accompanying illustration (@saviolo):
 
@@ -357,6 +358,7 @@ M empty-hand parry while stepping his right foot towards S's left hand in counte
 
 S empty-hand parry downward while stepping right foot towards M's left hand in counter-time and then #smallcaps[stoccata] to M's belly
 
-M empty-hand parry to their right side, stepping diagonally backwards with their right foot in counter-time and #smallcaps[stoccata] to S's head.#index-end[Saviolo, Vincentio]
-#index-end("Primary source plays", "Saviolo: second ward")
+M empty-hand parry to their right side, stepping diagonally backwards with their right foot in counter-time and #smallcaps[stoccata] to S's head.
+#index-end[Saviolo, Vincentio]
+#index-end("Primary source plays", "Saviolo: Second Ward")
 #index-end[Primary source plays]
