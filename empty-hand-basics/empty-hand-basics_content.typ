@@ -323,7 +323,7 @@ In one, A is depicted with the right foot in front, in the other with the left f
 Especially with long rapiers, I have found that a #smallcaps[passata] works better than a lunge.#index-end[_Fiore de\'i Liberi_]
 #index-end("Primary source plays", "Fiore de'i Liberi: 14d")
 
-==== Saviolo's Second Ward
+==== Saviolo's Second Ward<empty-hand-saviolo-2>
 
 #index-start("Primary source plays", "Saviolo: Second Ward")
 #index-start[Saviolo, Vincentio]
