@@ -17,30 +17,34 @@
 #let link-and-ref-style(body) = {
   show ref: it => {
     let el = it.element
-    if el != none and el.func() == heading and it.supplement == auto {
+    if el != none and el.func() == heading {
       // Which block does a given location belong to?
       let block-at(loc) = {
         let found = query(selector(<block-title>).before(loc))
         if found.len() > 0 { found.last().value } else { none }
       }
-      if el.level == 1 {
-        let name = block-at(el.location())
-        link(el.location(), emph(if name != none { name } else { el.body }))
+      let target-block = block-at(el.location())
+      let cross = (
+        target-block != none and target-block != block-at(it.location())
+      )
+      let plain = it.supplement == auto
+      if el.level == 1 and plain {
+        link(el.location(), emph(if target-block != none { target-block } else {
+          el.body
+        }))
       } else if el.numbering != none and el.level in (3, 4) {
         let nums = counter(heading).at(el.location())
         let n = if el.level == 3 { numbering("1", nums.last()) } else {
           numbering("1.1", ..nums.slice(-2))
         }
-        let target-block = block-at(el.location())
-        let here-block = block-at(it.location())
-        let cross = target-block != none and target-block != here-block
-        link(
-          el.location(),
-        )[#el.supplement #n#if cross [ of #emph(target-block)]]
+        let sup = if plain { el.supplement } else { it.supplement }
+        link(el.location())[#sup #n#if cross [ of #emph(target-block)]]
+      } else if el.numbering == none {
+        let text = if plain { ['#el.body'] } else { it.supplement }
+        link(el.location())[#text#if cross [ in #emph(target-block)]]
       } else { it }
     } else { it }
   }
-
   // Only external URLs are blue; internal links keep the text colour.
   show link: it => if type(it.dest) == str {
     text(fill: rgb("#0000ff"), it)
