@@ -8,7 +8,7 @@ It also contains a number details that either didn't fit anywhere else, or are g
   #set par(first-line-indent: 0pt)
   === Cues
   ==== General
-  ===== Explosive Impetus
+  ===== Explosive Impetus<cue_explosive-impetus>
 
   *Cue*:
   Most actions (lunge#index("Lunge"), incartata#index("Incartata"), etc.) consists of two parts: an explosive impetus, and an attempt to not face-plant as a result of that.
