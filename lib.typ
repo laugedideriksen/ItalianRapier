@@ -124,7 +124,7 @@
       size: 15pt,
       weight: "regular",
     )
-    block(above: 1.2em, below: 0.8em)[
+    block(above: 1.5em, below: 0.8em)[
       #if it.numbering != none [
         #counter(heading).display((..nums) => numbering("1.1.", ..nums
           .pos()
@@ -135,9 +135,10 @@
   }
 
   show heading.where(level: 5): it => {
-    set text(size: 13pt, weight: "regular")
-    block(above: 1.2em, below: 0.8em)[
-      #underline(it.body)
+    set text(size: 13pt, weight: "bold")
+    block(above: 1.5em, below: 0.8em)[
+      //      #underline(it.body)
+      #it.body
     ]
   }
 
