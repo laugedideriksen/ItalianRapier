@@ -57,11 +57,11 @@ It also contains a number details that either didn't fit anywhere else, or are g
   Saviolo#index("Saviolo, Vincentio") gives what is perhaps the most important piece of advice: "For your Rapier, holde it as you shall thinke most fit and commodious for you" #cite(<Saviolo_1595>, supplement: "7").
   Here are a few details that have helped me to that end:
   (TO BE WRITTEN PROPERLY!!)
-  - don't squeeze
-  - find a way to let the weapon 'hang'
-  - don't push the index finger all the way through
-  - rest the pommel against your wrist
-  - there is no one grip that is best for every situation, find a way to hold the rapier that allows you to move it in your hand.
+  - don't squeeze the handle. As a matter of fact, hold it as loosely as possible and only give it a squeeze at the moment of impact in e.g. a parry#index[Parry].
+  - find a way to let the weapon 'hang', for me that is between the hook of my index finger and the pinky-side of the base of my palm (the _hypothenar eminence_).
+  - don't push the index finger all the way through. Depending on the geometry of the hilt, my index finger wraps around the quillon at the distal joint or phalange (the joint or segment furthest away from the hand).
+  - I sometimes rest the pommel against my wrist
+  - in the same way as there is no one best guard, there is no one grip that is best for every situation, find a way to hold the rapier that allows you to move it in your hand.
 
 
   ==== Footwork
