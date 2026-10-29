@@ -48,7 +48,7 @@
   // Only external URLs are blue; internal links keep the text colour.
   show link: it => if type(it.dest) == str {
     underline(text(fill: rgb("#0000ff"), it))
-  } else { it }
+  } else { text(fill: green, it) }
 
   body
 }
