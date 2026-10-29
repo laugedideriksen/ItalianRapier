@@ -5,6 +5,7 @@
   doc-title: "Empty Hand Basics",
   doc-version: "1.3.2",
   last-updated: datetime(year: 2026, month: 9, day: 14),
+  tag: "empty-hand-basics",
   standalone: standalone,
 )
 
