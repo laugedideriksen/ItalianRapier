@@ -24,7 +24,7 @@
 
 // ---- Compiled document metadata ----
 #let doc-title = "Italian Rapier"
-#let doc-subtitle = "Drills, Lessons, and Principles"
+#let doc-subtitle = "Drills, Lessons, Principles"
 #let author-name = "Lauge Dideriksen"
 #let todays-date = (
   datetime.today().display("[day padding:none] [month repr:long] [year]")

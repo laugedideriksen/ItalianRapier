@@ -1,7 +1,8 @@
-# Rapier Curriculum
+# Italian Rapier
+## Drills, Lessons, Principles
 
-This is a collection of classes I have taught or plan to teach at the fencing school _Klingenspiel_ in Vienna, AT.
-Each folder contains the curriculum for a block of classes, usually between three and five. 
-
-These are all working documents, updated as I teach or repeat blocks.
-Feel free to use them and to suggest changes, additions, or improvements.
+This document is a compilation of texts on Italian rapier fencing.
+Some were originally handouts, others documentation, yet others a way for me to work through a topic; most were written in preparation for classes taught at _Klingenspiel_#index[Klingenspiel] in Vienna, others are my own training notes.
+All of them are living documents---each time I return to a topic, I update that chapter with new drills, ideas, and notes.
+For now, the material here is confined to 'rapier alone', as that is my primary focus.
+Once I start working more intensively on rapier and dagger, that will begin to appear here too.
