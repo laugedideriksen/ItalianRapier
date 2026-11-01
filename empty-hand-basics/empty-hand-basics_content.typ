@@ -8,7 +8,7 @@ This is not an attempt at teaching knife fighting, but a way of teaching and pra
 The third section contains drills and free play exercises focused on using the empty hand with the rapier.
 The fourth section contains a collection of plays from various primary sources that use the empty hand.
 
-#heading(level: 4, numbering: none)[How To Use this Document]
+#heading(level: 4, numbering: none)[How To Use this Document] <empty-hand-basics_how-to-use-this-document>
 Each section of this document builds on the previous: the principles laid out in section one lay the foundation for the mechanics and movements in section two on knife work.
 The second section contains drills and exercises to familiarise the student with using the empty hand.
 Once those mechanics have become familiar, the third section combines them with the blade- and footwork of Italian rapier fencing.
@@ -31,7 +31,7 @@ For some drills in this document, it should suffice to switch the side of attack
 Even so, there might be exercises that are simply not appropriate when fencing 'leftie' against 'rightie'.
 In those cases, trying to force a technique to work is a waste of time, and the better solution is for the fencer on the receiving end to fence with their 'other strong hand'.
 
-#heading(level: 4, numbering: none)[Terminology]
+#heading(level: 4, numbering: none)[Terminology] <empty-hand-basics_terminology>
 Broadly speaking, there are four ways to use the empty hand in Italian rapier fencing: parrying, taking over, trapping, and displacing.#footnote[Fencing terminology is infamously inconsistent and this topic is no exception. These are the terms I have settled on.]
 In an empty-hand parry, the opponent's weapon is deflected first, and usually only, with the empty hand.
 This is often combined with a simultaneous (#smallcaps[stesso tempo]) attack with the rapier.
@@ -46,7 +46,7 @@ For that reason, they are the focus of this document.
 Although it seems like an obvious thing to do, I am not aware of treatise describing the offensive use of the empty hand in the form of punching, slapping, eye-poking, etc.
 Whether that accurately reflects how people fenced at the time is another matter altogether.
 
-=== Principles
+=== Principles <empty-hand-basics_principles>
 
 It seems to me that there are three fundamental principles for successfully integrating the empty hand with the rapier:
 + The empty hand must not get in the way of the rapier.
@@ -79,7 +79,7 @@ So much for platonic fencing.
 These are principles, not commandments and they will not apply to every situation.#footnote[Such as your opponent's avoiding your empty-hand parry by lifting their tip over your hand, as is suggested in _Den Ridderlige og Adelige Fecht-Konstis_ #index[_Den Ridderlige og Adelige Fecht-Konstis_] (#cite(<a.RidderligeOcAdelige1646>, form: "year")). Any empty-hand action immediately following that will likely start from below, as that is where the hand is.]
 Nonetheless, this document is concerned with the basics, and for that these principles will apply nine times out of ten.
 
-=== Knife Work
+=== Knife Work <empty-hand-basics_knife-work>
 
 #index-start[Knife work]
 As I wrote in the introduction, this section does not describe a system of knife fighting.
@@ -101,7 +101,7 @@ Hold the weapon point down or point up (hammer or sabre grip to suit preference 
 In terms of footwork, think boxing or Filipino triangle footwork, not fencing.
 And whatever you do, do not lunge!
 
-==== Drills
+==== Drills <empty-hand-basics_drills>
 ===== Dui Tempi
 + Implement: larger blade, e.g. bowie held point up.
 
@@ -188,7 +188,7 @@ In any case, the focus should remain on using both hands together, not on winnin
 + As above, but pursue a situation where the opponent is unable to counter, even if given tempo to do so.
 #index-end[Knife work]
 
-=== Rapier Work
+=== Rapier Work <empty-hand-basics_rapier-work>
 Before attempting any of the drills below, spend some time integrating the lessons learned from the knife work into your rapier basics---especially stance and footwork.
 Look for the feeling of symmetry between weapon hand and empty hand that has hopefully developed with the knife.
 
@@ -199,7 +199,7 @@ This is to keep the focus on the technique of movement being drilled.
 I have also tried to emphasise offensive actions, as the treatises tend to emphasise defensive ones.
 Much like primary source plays, however, not every drill is likely to work in sparring, and not every drill will work for every fencer.
 
-==== Drills
+==== Drills <empty-hand-basics_rapier-work_drills>
 ===== Dui Tempi
 + A attacks with a diagonal cut to the head or neck (number '1' or '2').
 
@@ -257,7 +257,7 @@ Much like primary source plays, however, not every drill is likely to work in sp
 + Multiple hits: Do not reset after each hit, but continue for until someone has been hit multiple times.
 + As above, but pursue a situation where the opponent is unable to counter, even if given tempo to do so.
 
-=== Primary Source Plays
+=== Primary Source Plays <empty-hand-basics_primary-source-plays>
 
 #index-start[Primary source plays]
 The following plays have been adapted from a variety of rapier treatises.
@@ -269,7 +269,7 @@ The #cite(<FioreLiberiSword>, form: "author") _Fiore de'i Liberi_ #index[_Fiore 
 The #cite(<Saviolo_1595>, form: "author") #index[Saviolo, Vincentio] sequence is based on the English original.
 All three are available on #link("https://wiktenauer.com")[Wiktenauer]#index[Wiktenauer].
 
-==== Capo Ferro No. 20
+==== Capo Ferro No. 20 <empty-hand-basics_capo-ferro-no-20>
 
 #index-start[Capo Ferro, Ridolfo]
 #index-start("Primary source plays", "Capo Ferro: plate No. 20")
@@ -293,7 +293,7 @@ C then strikes D's face in #smallcaps[seconda] with a lunge, while gripping D's 
 #index-end("Primary source plays", "Capo Ferro: plate No. 20")
 #index-end[Capo Ferro, Ridolfo]
 
-==== _Fiore de'i Liberi_ 14d
+==== _Fiore de'i Liberi_ 14d <empty-hand-basics_fiore-dei-liberi-14d>
 
 #index-start("Primary source plays", "Fiore de'i Liberi: 14d")
 #index-start[_Fiore de\'i Liberi_]_Fiore de'i Liberi_ is a treatise from before rapiers were a thing and, as such, the fencing it describes differs somewhat in style from Italian rapier treatises.

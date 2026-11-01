@@ -167,7 +167,7 @@ Control does not mean strength, however.
 A weaker fencer with good structure and good technique (strong on weak, etc.) has little issue controlling a much stronger fencer.
 Nonetheless, fencers who have based their style on being faster than their opponents may find it frustrating.
 
-==== First Drill
+==== First Drill <balance-and-voiding_first-drill>
 Fencers (A and B) start in middle distance (where either can hit the other with a lunge).
 + A binds onto B’s blade on the inside or outside; B disengages; A rebinds. On a disengage of their
 choice, A lunges, striking B with a thrust in opposition instead of rebinding.
@@ -177,14 +177,14 @@ with a traverso L. In either case, B ‘leaves’ their blade in the middle line
 + A parries B’s blade with their empty hand, and strikes B with a stramazone to the head. The
 stramazone can be done with or without a step of the back foot.
 
-==== Second Drill
+==== Second Drill <balance-and-voiding_second-drill>
 Fencers start at a distance where either can strike the other with a gathering step and a lunge.
 + A binds onto B’s blade on the inside or outside with a gathering step; B disengages and lunges, striking A with a thrust in opposition.
 + If B attacks on the inside, A voids with a volte or scanzo; if B attacks on the outside, A voids with a traverso L. In either case, A ‘leaves’ their blade in the middle line, as described in section 1 above.
 + As 2 above, but instead of disengaging and striking, B may instead take a step backwards. If they do, A finishes the gathering step as a step forward, effectively resetting the situation.
 + As 3 above, but from the initial position, either fencer may initiate the action with a gathering step. At this point, this drill begins to resemble a constrained for of sparring, and the intensity should eventually reflect that.
 
-==== Third Drill
+==== Third Drill <balance-and-voiding_third-drill>
 This drill combines elements of the two drills above. Fencers start at a distance where either can strike the other with a gathering step and a lunge.
 + A binds onto B’s blade on the inside or outside with a gathering step; B disengages and lunges, striking A with a thrust in opposition.
 + A either takes B’s disengage as a tempo to strike them with a thrust in opposition,1 or voids B’s attack with a volte/scanzo or traverso L, depending on whether B attacks on the inside or the outside.

@@ -7,21 +7,21 @@ It is also one of the most characteristic elements of many rapier styles---Fabri
 Nevertheless, I find it to be one of the most difficult things to teach.
 What follows is partly an exploration of guards from various Italian sources, partly an attempt to turn those into coaching cues (see @developing-the-guard).
 
-=== Principles
+=== Principles <finding-the-guard_principles>
 
 It seems to me that a guard needs to accomplish TK things:
 - provide a flexible starting point for attack and defence.
 - be stable, but mobile
 - minimise an opponent's possible lines of attack, and thereby reduce the possibilities that a fencer needs to account for.
 
-=== Primary Source Guards
+=== Primary Source Guards <finding-the-guard_primary-source-guards>
 
 I have included examples from three treatises: #cite(<capoferroRidolfoCapoFerro>, form: "author") Ridolfo Capo Ferro's _Gran Simulacro_, #cite(<Saviolo_1595>, form: "author")'s _His Practice_, and #cite(<fabrissalvator2022SchermoOveroScienza>, form: "author")'s _Scienza d’Arme_.
 These are examples of three very different postures:
 Saviolo is relatively upright, Capo Ferro leans back and Fabris is bent over forward.
 All three, however, address the same TK: mobility, TK, and limiting the opponent's options.
 
-==== Capo Ferro
+==== Capo Ferro <finding-the-guard_capo-ferro>
 
 #index-start("Capo Ferro, Ridolfo", "Guard")
 #index("Guard", "Capo Ferro's terza")
@@ -35,7 +35,7 @@ All three, however, address the same TK: mobility, TK, and limiting the opponent
 
 #index-end("Capo Ferro, Ridolfo", "Guard")
 
-==== Saviolo: _His Practice_ (#cite(<Saviolo_1595>, form: "year"))
+==== Saviolo: _His Practice_ (#cite(<Saviolo_1595>, form: "year")) <finding-the-guard_saviolo-his-practice-cite-saviolo1595-form-year>
 
 #set quote(block: true)
 
@@ -121,7 +121,7 @@ And a few pages later:
 #index-end("Saviolo, Vincentio", "Third ward")
 #index-end[Saviolo, Vincentio]
 
-==== Fabris
+==== Fabris <finding-the-guard_fabris>
 
 #index-start[Fabris, Salvator]
 Fabris' guards are in many way the opposite of Capo Ferro's.
@@ -130,7 +130,7 @@ It is also a style with which I have very little experience, and so in no way sh
 
 #index-end[Fabris, Salvator]
 
-=== Summary
+=== Summary <finding-the-guard_summary>
 
 TK.
 The most obvious conclusion is that there are many ways to skin the poor, proverbial cat.
