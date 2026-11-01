@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
-# Regenerates labels.json: every label defined inside a block -> that block's
-# doc-title. lib.typ reads it so that a plain @label can degrade gracefully
-# when its block is not part of the current build.
+# Regenerates labels.json: every label defined inside a block -> that block's doc-title. lib.typ reads it so that a plain @label can degrade gracefully when its block is not part of the current build.
+# Requires bash, grep, sed and awk.
 #
-# Needs only bash, grep, sed and awk. Run it from anywhere:  scripts/labels.sh
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
