@@ -1,5 +1,6 @@
 #import "lib.typ": link-and-ref-style
 #import "finding-the-guard/finding-the-guard.typ": finding-the-guard
+#import "stringere/stringere.typ": stringere
 #import "balance-and-voiding/balance-and-voiding.typ": balance-and-voiding
 #import "empty-hand-basics/empty-hand-basics.typ": empty-hand-basics
 #import "developing-sensitivity-in-the-bind/developing-sensitivity-in-the-bind.typ": (
@@ -13,6 +14,7 @@
 
 #let blocks = (
   finding-the-guard,
+  stringere,
   balance-and-voiding,
   empty-hand-basics,
   addressing-weaknesses,
