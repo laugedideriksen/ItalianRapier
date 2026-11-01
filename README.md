@@ -1,5 +1,4 @@
 # Italian Rapier
-## Drills, Lessons, Principles
 
 This document is a compilation of texts on Italian rapier fencing.
 Some were originally handouts, others documentation, yet others a way for me to work through a topic; most were written in preparation for classes taught at _Klingenspiel_#index[Klingenspiel] in Vienna, others are my own training notes.
