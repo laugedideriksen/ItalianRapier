@@ -9,7 +9,7 @@ It also contains descriptions of how I manipulate my balance to initiate various
 The second section combines these movements into simple solo- and partner drills.
 The third and final section contains partner drills that gradually build from simple action/reaction to something resembling constrained sparring.
 
-=== Fundamentals
+=== Fundamentals<balance-and-voiding_fundamentals>
 The human body has two centres of balance.
 One, the head, is gimballed, the other, the 'centre of gravity', is located somewhere around the navel; moving either causes the rest of the body to follow.
 It can be helpful to think of the rapier as a third centre of balance.
@@ -76,9 +76,9 @@ The passata sotto is quite an athletic movement and an excellent way to pull one
 
 #sourced-figure(
   image("../assets/La_Touche_Planche16.jpeg", width: 95%),
-  caption: [Plate 16 (cropped) from Philibert de la Touche's _Les Vrais Principes de l'Espée Seule_ (#cite(<delatouch1670VraisPrincipesLEspee>, form: "year")). The figure on the right has performed a passata sotto.],
+  caption: [Plate 16 (cropped) from Philibert de la Touche's _Les Vrais Principes de l'Espée Seule_ (#cite(<latouche1670VraysPrincipesLespee>, form: "year")). The figure on the right has performed a passata sotto.],
   source: "https://wiktenauer.com/images/4/47/Les_Vrays_principes_de_l%27esp%C3%A9e_Seule_La_Touche_Planche16.jpeg",
-  tag: "de-la-touche-16",
+  tag: "balance-and-voiding_fig_de-la-touche-16",
 )#index[de la Touche, Philibert]
 
 The basic order of movement remains the same: extend arm--shift/lean--quasi drop step.
