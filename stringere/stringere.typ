@@ -4,7 +4,7 @@
   include "stringere_content.typ",
   doc-title: "Stringere",
   doc-version: "0.0.1",
-  last-updated: datetime(year: 2026, month: 10, day: 19),
+  last-updated: datetime(year: 2026, month: 11, day: 1),
   standalone: standalone,
   tag: "stringere",
 )
