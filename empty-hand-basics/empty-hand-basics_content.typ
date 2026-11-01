@@ -8,7 +8,7 @@ This is not an attempt at teaching knife fighting, but a way of teaching and pra
 The third section contains drills and free play exercises focused on using the empty hand with the rapier.
 The fourth section contains a collection of plays from various primary sources that use the empty hand.
 
-#heading(level: 4, numbering: none)[How To Use this Document] <empty-hand-basics_how-to-use-this-document>
+===== How To Use this Document <empty-hand-basics_how-to-use-this-document>
 Each section of this document builds on the previous: the principles laid out in section one lay the foundation for the mechanics and movements in section two on knife work.
 The second section contains drills and exercises to familiarise the student with using the empty hand.
 Once those mechanics have become familiar, the third section combines them with the blade- and footwork of Italian rapier fencing.
@@ -22,16 +22,13 @@ That, however, is hardly viable when teaching a rapier class in a fencing club.
 The next best thing is to pick out a combination of knife and rapier drills and exercises covering the same topic, and use that as the basis for a class.
 Even so, I would advice against introducing the primary source plays before the class has a good grip of the fundamentals.
 
-#heading(
-  level: 4,
-  numbering: none,
-)[A Note for (and against) Left-handed Fencers]
+===== A Note for (and against) Left-handed Fencers
 As always, drills and exercises need to be adapted when fencing (against) an opponent who wields their weapon in a different hand than you do.
 For some drills in this document, it should suffice to switch the side of attack (inside/outside), for others, I have made a note suggesting a modified version.
 Even so, there might be exercises that are simply not appropriate when fencing 'leftie' against 'rightie'.
 In those cases, trying to force a technique to work is a waste of time, and the better solution is for the fencer on the receiving end to fence with their 'other strong hand'.
 
-#heading(level: 4, numbering: none)[Terminology] <empty-hand-basics_terminology>
+===== Terminology <empty-hand-basics_terminology>
 Broadly speaking, there are four ways to use the empty hand in Italian rapier fencing: parrying, taking over, trapping, and displacing.#footnote[Fencing terminology is infamously inconsistent and this topic is no exception. These are the terms I have settled on.]
 In an empty-hand parry, the opponent's weapon is deflected first, and usually only, with the empty hand.
 This is often combined with a simultaneous (#smallcaps[stesso tempo]) attack with the rapier.
