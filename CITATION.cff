@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this document, please cite it as below."
+title: "Italian Rapier: Drills, Lessons, Principles"
+authors:
+  - family-names: Dideriksen
+    given-names: Lauge
+date-released: "2026-11-01"
+repository-code: "https://github.com/laugedideriksen/ItalianRapier"
