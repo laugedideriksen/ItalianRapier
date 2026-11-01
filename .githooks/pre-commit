@@ -8,6 +8,28 @@ cd "$(git rev-parse --show-toplevel)"
 changed=$(git diff --cached --name-only --diff-filter=ACMRD)
 grep -qE '\.typ$' <<<"$changed" || exit 0
 
+# Files with unstaged edits BEFORE the scripts run. Auto-staging one of those
+# after tags.sh touched it would sweep unrelated work into this commit.
+unstaged=$(git diff --name-only)
+
+# 1. Tags
+if ! edited=$(scripts/tags.sh); then
+    echo "pre-commit: scripts/tags.sh failed, commit aborted (fix the above, or bypass with --no-verify)" >&2
+    exit 1
+fi
+blocked=()
+while IFS= read -r f; do
+    [[ -n "$f" ]] || continue
+    if grep -qxF -- "$f" <<<"$unstaged"; then blocked+=("$f"); else git add -- "$f"; fi
+done <<<"$edited"
+if ((${#blocked[@]})); then
+    echo "pre-commit: tags.sh added labels to files that also have unstaged changes:" >&2
+    printf '  %s\n' "${blocked[@]}" >&2
+    echo "Review with 'git diff', stage them with 'git add', and commit again." >&2
+    exit 1
+fi
+
+# 2. Label table
 if ! scripts/labels.sh; then
     echo "pre-commit: scripts/labels.sh failed, commit aborted (fix the above, or bypass with --no-verify)" >&2
     exit 1
