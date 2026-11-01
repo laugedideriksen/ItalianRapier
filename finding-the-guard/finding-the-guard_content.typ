@@ -30,7 +30,7 @@ All three, however, address the same TK: mobility, TK, and limiting the opponent
   image("../assets/Capo_Ferro_06.png", width: 95%),
   caption: [Capo Ferro's guard],
   source: "https://wiktenauer.com/images/4/40/Capo_Ferro_06.png",
-  tag: "capoferro_guard",
+  tag: "finding-the-guard_fig_capoferro_guard",
 )
 
 #index-end("Capo Ferro, Ridolfo", "Guard")
@@ -50,7 +50,7 @@ According to Saviolo the guard must
 
 #index-start("Saviolo, Vincentio", "First ward")
 Describing his first ward#index("Guard", "Saviolo's first ward")
-'breeds a judgement of the time, and a readinesse and nimblenesse as well of the hand as the foote, together with the body: and from this you come prepared to learne other wards with more facilitie, and to have a greater insight and understanding in many things' #cite(<Saviolo_1595>, supplement: "16") (@saviolo_w1).
+'breeds a judgement of the time, and a readinesse and nimblenesse as well of the hand as the foote, together with the body: and from this you come prepared to learne other wards with more facilitie, and to have a greater insight and understanding in many things' #cite(<Saviolo_1595>, supplement: "16") (@finding_the_guard_fig_saviolo-1).
 On his account, 'many Nations use this ward in fight verie much, especially with the single rapier, both Italians, French-men, Spaniards, & Almanes' #cite(<Saviolo_1595>, supplement: "16").
 
 #quote(attribution: [#cite(
@@ -63,7 +63,7 @@ On his account, 'many Nations use this ward in fight verie much, especially with
   image("../assets/Saviolo_1.jpg", width: 95%),
   caption: [Saviolo's first ward],
   source: "https://wiktenauer.com/images/archive/4/40/20130915232741%21Saviolo_1.jpg",
-  tag: "saviolo_w1",
+  tag: "finding_the_guard_fig_saviolo-1",
 )
 #index-end("Saviolo, Vincentio", "First ward")
 
@@ -71,7 +71,7 @@ On his account, 'many Nations use this ward in fight verie much, especially with
 ===== Second Ward
 
 #index-start("Saviolo, Vincentio", "Second ward")
-Second, it starts from his 'second ward'#index("Guard", "Saviolo's second ward") which he describes as follows, somewhat contrary to the accompanying illustration (@saviolo_w2):
+Second, it starts from his 'second ward'#index("Guard", "Saviolo's second ward") which he describes as follows, somewhat contrary to the accompanying illustration (@finding-the-guard_fig_saviolo-2):
 
 #set quote(block: true)
 #quote(attribution: [#cite(
@@ -85,7 +85,7 @@ Second, it starts from his 'second ward'#index("Guard", "Saviolo's second ward")
   image("../assets/Saviolo_2.jpg", width: 95%),
   caption: [Saviolo's second ward.],
   source: "https://wiktenauer.com/images/archive/3/3b/20130915232754%21Saviolo_2.jpg",
-  tag: "saviolo_w2",
+  tag: "finding-the-guard_fig_saviolo-2",
 )
 
 #index-end("Saviolo, Vincentio", "Second ward")
@@ -93,7 +93,7 @@ Second, it starts from his 'second ward'#index("Guard", "Saviolo's second ward")
 ===== Third Ward
 
 #index-start("Saviolo, Vincentio", "Third ward")
-In contrast to the previous two wards, the description of the third ward (@saviolo_w3) is rather vague#index("Guard", "Saviolo's third ward").
+In contrast to the previous two wards, the description of the third ward (@finding-the-guard_fig_saviolo-3) is rather vague#index("Guard", "Saviolo's third ward").
 First, he writes:
 
 #set quote(block: true)
@@ -116,7 +116,7 @@ And a few pages later:
   image("../assets/Saviolo_3.jpg", width: 95%),
   caption: [Saviolo's third ward],
   source: "https://wiktenauer.com/images/archive/4/40/20130915232805%21Saviolo_3.jpg",
-  tag: "saviolo_w3",
+  tag: "finding-the-guard_fig_saviolo-3",
 )
 #index-end("Saviolo, Vincentio", "Third ward")
 #index-end[Saviolo, Vincentio]
