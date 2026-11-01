@@ -3,7 +3,7 @@
 #let stringere(standalone: true) = block-layout(
   include "stringere_content.typ",
   doc-title: "Stringere",
-  doc-version: "0.0.1",
+  doc-version: "0.6.0",
   last-updated: datetime(year: 2026, month: 11, day: 1),
   standalone: standalone,
   tag: "stringere",

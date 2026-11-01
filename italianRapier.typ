@@ -13,7 +13,7 @@
 #import "@preview/in-dexter:0.7.2": *
 
 #let blocks = (
-  finding-the-guard,
+  //finding-the-guard,
   stringere,
   balance-and-voiding,
   empty-hand-basics,
