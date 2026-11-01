@@ -50,6 +50,7 @@ It also contains a number details that either didn't fit anywhere else, or are g
   Focus on finishing with the head and upper body stacked on top of each other---that way it is easier to change direction.
 
   ==== Developing the Guard <developing-the-guard>
+  @finding-the-guard
 
   === Details
   ===== Gripping the Rapier<detail-gripping-the-rapier>
