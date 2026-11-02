@@ -1,4 +1,4 @@
-#import "lib.typ": link-and-ref-style
+#import "lib.typ": link-and-ref-style, print-glossary
 #import "finding-the-guard/finding-the-guard.typ": finding-the-guard
 #import "stringere/stringere.typ": stringere
 #import "balance-and-voiding/balance-and-voiding.typ": balance-and-voiding
@@ -105,6 +105,13 @@
   #counter(heading).update(0)
   #b(standalone: false)
   #if i < blocks.len() - 1 [#pagebreak()]
+]
+
+// ---- Glossary ----
+// One consolidated glossary of every term marked up with #gl(...) in any block.
+#[
+  #show: link-and-ref-style
+  #print-glossary(new-page: true)
 ]
 
 // ---- Bibliography ----

@@ -1,4 +1,5 @@
 #import "@preview/in-dexter:0.7.2": *
+#import "glossary.typ": gl, gl-link, print-glossary
 
 #let index-start = index.with(index-type: indextype.Start)
 #let index-end = index.with(index-type: indextype.End)
@@ -183,6 +184,11 @@
 
   // ---- Body ----
   body
+
+  // ---- Glossary ----
+  // Standalone: only the terms used in this block. The master prints one
+  // consolidated glossary instead.
+  if standalone { print-glossary() }
 
   // ---- Bibliography ----
   // Only printed standalone -- the master prints one consolidated
