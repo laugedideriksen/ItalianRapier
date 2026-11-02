@@ -22,11 +22,12 @@ It also contains a number details that either didn't fit anywhere else, or are g
 
   *Pitfalls and Over-corrections*:
   Not everyone has good control of their body.
-  That is not an eternal judgement, but a weakness on can---and should!---work on.
-  For those who are not there yet, however, this cue is unlikely to work right away; it can, however, be a good starting point for working on body control.
+  That is not an eternal judgement, but a weakness one can---and should!---work on.
+  For those who are not there yet, however, this cue is unlikely to work right away.
+  But it can be a good starting point for working on body control.
   A few pitfalls I have observed:
-  - Putting way too much energy into the explosive part and ending up in a bad position.
-  - Focussing so hard on being explosive that one forgets the purpose of the movement.
+  - Putting way too much energy into the explosive part and ending up in an awkward position.
+  - Focussing so hard on being explosive that one forgets what the movement is supposed to accomplish.
 
   ===== 'Long Guard'<cue-long-guard>
   *Cue*:

@@ -19,9 +19,14 @@
     def: [],
     see: ("incartata",),
   ),
+  "inquartata": (
+    term: "Inquartata",
+    def: [],
+    see: ("incartata",),
+  ),
   "stesso-tempo": (
     term: "Stesso tempo",
-    def: [TODO],
+    def: [],
   ),
   "dui-tempi": (
     term: "Dui tempi",
@@ -29,30 +34,30 @@
   ),
   "incartata": (
     term: "Incartata",
-    def: [A void performed by violently turning the body and catching one's weight on the back leg. Also known as *Volte*.],
+    def: [Also *Volte* or *Inquartata*. A void performed by violently turning the body and catching one's weight on the back leg. ],
     see: ("scanzo",),
   ),
   "passata": (
     term: "Passata",
-    def: [TODO],
+    def: [],
   ),
   "passata-sotto": (
     term: "Passata sotto",
-    def: [TODO],
+    def: [],
   ),
   "scanzo": (
     term: "Scanzo",
-    def: [TODO],
+    def: [],
   ),
   "drop-step": (
     term: "Drop step",
     foreign: false,
-    def: [TODO],
+    def: [],
   ),
   "guard": (
     term: "Guard",
     foreign: false,
-    def: [TODO],
+    def: [],
   ),
   "traverso": (
     term: "Traverso",

@@ -1,7 +1,7 @@
 #import "../lib.typ": *
 
 #index-start("Stringere")
-Stringere is perhaps one of the most ambiguous concepts in Italian rapier fencing.
+Stringere#gl("stringere") is perhaps one of the most ambiguous concepts in Italian rapier fencing.
 Part of this might be due to the lack of good English (or German) translations of the word.
 In English one often finds 'gain', or 'find', or 'stringer'.
 Some teachers also use 'constrain' which, while not a direct translation, gets at the nature of the action.

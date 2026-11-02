@@ -60,17 +60,17 @@ Once that begins to feel smooth, find the 'point of no return'---the point beyon
 Then practice getting to that point as quickly as possible, without kipping over into a full lunge.
 That point, and being able to explosively get to it, goes a long way towards feinting#index[Feint] convincingly (see also @cue_explosive-impetus).
 
-===== Traverso Weapon Side#index[Traverso]<balance-and-voiding_traverso-ws>
+===== Traverso#gl("traverso") (Weapon Side)#index[Traverso]<balance-and-voiding_traverso-ws>
 A traverso, from the word for 'going across', is mechanically similar to a lunge, but instead of forwards, one moves diagonally or sidewards.
 When 'traversing' to the weapon side, it is often easiest to go diagonally forward, as that is closest to the strong line.
 One thing to note about a traverso to the weapon side is that it brings the blade off-line.
 While this does create an opening---which can be addressed with the #link(<empty-hand-basics>)[empty hand]#index[Empty Hand]---it also allows one to attack from different angles.
 
-===== Traverso Empty-hand side#index[Traverso]<balance-and-voiding_traverso-es>
+===== Traverso#gl("traverso") (Empty-hand Side)#index[Traverso]<balance-and-voiding_traverso-es>
 For the same reason that a traverso to the weapon side tends to move diagonally forward, a traverso to the empty-hand side tends to move diagonally backward.
 Contrary to a traverso to the weapon side, it is possible to leave the rapier on-line; one can think of leaving the blade in place and moving the body around it.
 
-===== Passata Sotto#index[Passata Sotto]<balance-and-voiding_passata-sotto>
+===== Passata Sotto#gl("passata-sotto")#index[Passata Sotto]<balance-and-voiding_passata-sotto>
 Shift weight back, then drop step
 The passata sotto is quite an athletic movement and an excellent way to pull one's groin if one is not used to it.
 
@@ -93,17 +93,17 @@ The resulting order of movement is: extend arm (forward)--lean/shift (backwards)
 
 This may initially seem a little schizophrenic, which also makes it a good exercise
 
-===== Incartata (Volte)#index[Incartata]<balance-and-voiding_incartata>
+===== Incartata#gl("incartata") (Volte#gl("volte"))#index[Incartata]<balance-and-voiding_incartata>
 Incartata (or volte) and scanzo are often spoken about as alternatives to one another.
 In many cases they are, but they differ significant in the details.
 
-===== Scanzo#index[Scanzo]<balance-and-voiding_scanzo>
+===== Scanzo#gl("scanzo")#index[Scanzo]<balance-and-voiding_scanzo>
 Shift weight, then ‘throw’ shoulder.
 
 ===== Gathering Step<balance-and-voiding_gathering-step>
 Different ways of finishing—as a regular step, or any of the movements above.
 
-===== Passata#index[Passata]<balance-and-voiding_passata>
+===== Passata#gl("passata")#index[Passata]<balance-and-voiding_passata>
 As lunge + trav L.
 
 
