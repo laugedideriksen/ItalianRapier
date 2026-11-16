@@ -5,26 +5,22 @@
 #import "glossary-entries.typ": glossary-entries
 
 // ---- Glossary ----
-// Terms live in glossary-entries.typ. Mark them up in running text with
-//   #gl("incartata")                        -> incartata
-//   #gl("incartata", display: [incartate])  -> incartate (plural etc.)
-// Every use is recorded, so the printed glossary only contains terms that
-// actually occur in the current build (one block, or the whole collection).
+// Terms live in glossary-entries.typ. Tag a term in running text by placing
+// the tag right after it:
+//   Incartata#gl("incartata")
+// The tag displays nothing. It records that the term is used, so the printed
+// glossary only contains terms that occur in the current build (one block, or
+// the whole collection).
 #let _gl-used = state("glossary-used", ())
 
-#let gl(key, display: auto) = {
-  let e = glossary-entries.at(key, default: none)
-  assert(e != none, message: "unknown glossary term: " + key)
+#let gl(key) = {
+  assert(key in glossary-entries, message: "unknown glossary term: " + key)
   _gl-used.update(u => if key in u { u } else { u + (key,) })
-  let shown = if display == auto { e.term } else { display }
-  if e.at("foreign", default: true) { emph(shown) } else { shown }
 }
 
 // Link to another glossary entry (used by the "See" / "See also" lines).
 // A pure link: it does not record usage, which is why entries named in a
 // `see` field are printed automatically.
-// Inside the glossary itself terms are set upright; only running text
-// (#gl) italicises foreign terms.
 #let gl-link(key, display: auto) = link(
   label("gl-entry-" + key),
   if display == auto { glossary-entries.at(key).term } else { display },
@@ -77,3 +73,4 @@
     }))
   }
 }
+
