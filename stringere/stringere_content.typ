@@ -53,12 +53,12 @@ Contrary to other topics, where I will let pairs of students work on a drill for
     + As Ia., but B's gathering step must bring them into middle range. If A sees no opening for a direct attack, B strikes with a thrust in opposition#gl("thrust-in-opposition").
     + As Ib., but if A sees an opening for a direct attack at any point, they strike.
   + Common reactions to a stringere.
-    + A gives a line; B performs a stringere with a gathering step; A performs a disengage (cavazione#gl("cavazione")) and a thrust in opposition.
-    + As Ib., when B attacks, A counters _stesso tempo_#gl("stesso-tempo"), with or without a void#gl("void"), with or without an empty-hand parry.
+    + A gives a line; B performs a stringere with a gathering step; A performs a disengage (cavazione#gl("cavazione")); If A sees an opening for a direct attack, A strikes, if not, B strikes with  a thrust in opposition.
+    + As Ib., when B attacks, A counters _stesso tempo_#gl("stesso-tempo"), with or without voiding#gl("void"), and with or without an empty-hand parry.
   + Counters to IIa.
     + As IIa.; B counters _a dui tempi_#gl("dui-tempi").
     + As IIa.; B counters _stesso tempo_ with a void.
-    + As IIa.; B counters _stesso tempo_ with without voiding, with or without an empty-hand parry.
+    + As IIa.; B counters _stesso tempo_ with without voiding, and with or without an empty-hand parry.
     + As IIa.; B attacks into A's disengage with a thrust in terza#gl("terza") (stoccatta#gl("stoccatta")).
     + As IIa.; B counters with a counter-disengage (contracavazione#gl("contracavazione")) and a thrust in opposition.
 ]
