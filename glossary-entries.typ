@@ -26,7 +26,7 @@
   ),
   "stesso-tempo": (
     term: "stesso tempo",
-    def: [A reaction done 'in one time'.],
+    def: [A counter done 'in one time'.],
   ),
   "dui-tempi": (
     term: "a dui tempi",
@@ -47,7 +47,8 @@
   ),
   "scanzo": (
     term: "Scanzo",
-    def: [],
+    def: [A void performed by violently turning the body and catching one's weight on the front foot.],
+    see: ("incartata",),
   ),
   "drop-step": (
     term: "Drop step",
@@ -74,6 +75,7 @@
   "contracavazione": (
     term: "Contracavazione",
     def: [en: 'counterdisengage'. An idiomatic counter to an opponent's disengaging. As the opponent disengages, before they re-enter the bind or attack in opposition, the fencer does a disengage of their own.],
+    see: ("cavazione",),
   ),
   "stoccatta": (
     term: "Stoccatta",
